@@ -1,0 +1,35 @@
+{
+  "__resolveType": "site/sections/Header/HeaderSpa.tsx",
+  "menu": [
+    {
+      "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/3b334b52-df3f-4d56-8f21-3b0f0d11588e",
+      "menuName": "Início",
+      "menuLink": "/phytospa"
+    },
+    {
+      "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/phytoterapica/c9fe8525-cdd8-445a-8e61-c67f35eaf2bf/icon-massagem-corporal.svg",
+      "menuName": "Massagens Corporais",
+      "menuLink": "/phytospa/massagens-corporais"
+    },
+    {
+      "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/93864f68-132f-4b0f-8c3b-45c8bb3a7bab",
+      "menuName": "Práticas Corporais",
+      "menuLink": "/phytospa/praticas-corporais"
+    },
+    {
+      "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/1d156438-f370-43c6-9c9c-7670c4617f8c",
+      "menuName": "Terapias Integrativas",
+      "menuLink": "/phytospa/terapias-integrativas"
+    },
+    {
+      "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/63f22bdf-72cb-4397-9cde-c3f1f62c3500",
+      "menuName": "Terapias de Bem-Estar",
+      "menuLink": "/phytospa/terapias-de-bem-estar"
+    }
+  ],
+  "logo": {
+    "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/phytoterapica/f8d3987a-19e9-4a0d-8c3c-a262902c45df/phytospa-transparencia-1-(1).png",
+    "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/9e8bae7f-b8a6-4101-b458-c37b6f9e3202"
+  },
+  "link": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20que%20oferecem,%20hor%C3%A1rios%20e%20valores."
+}

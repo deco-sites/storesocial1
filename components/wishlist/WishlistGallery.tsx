@@ -1,10 +1,12 @@
 import SearchResult, {
   Props as SearchResultProps,
-} from "../search/SearchResult.tsx";
-import { type SectionProps } from "@deco/deco";
+} from "$store/components/search/SearchResult.tsx";
+
 export type Props = SearchResultProps;
-function WishlistGallery(props: SectionProps<typeof loader>) {
+
+function WishlistGallery(props: Props) {
   const isEmpty = !props.page || props.page.products.length === 0;
+
   if (isEmpty) {
     return (
       <div class="container mx-4 sm:mx-auto">
@@ -18,12 +20,8 @@ function WishlistGallery(props: SectionProps<typeof loader>) {
       </div>
     );
   }
+
   return <SearchResult {...props} />;
 }
-export const loader = (props: Props, req: Request) => {
-  return {
-    ...props,
-    url: req.url,
-  };
-};
+
 export default WishlistGallery;

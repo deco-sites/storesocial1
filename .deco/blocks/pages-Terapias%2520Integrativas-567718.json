@@ -1,0 +1,254 @@
+{
+  "name": "Terapias Integrativas",
+  "path": "/phytospa/terapias-integrativas",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "title": "Terapias Integrativas",
+      "titleTemplate": "%s - PhytoSPA"
+    },
+    {
+      "__resolveType": "Header PhytoSpa"
+    },
+    {
+      "__resolveType": "site/sections/ImageBreadcrumb/ImageBreadcrumb.tsx",
+      "Banner": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/b1d312b7-934d-492c-b0de-18c671fa8994"
+      },
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/c831b8b8-0780-451f-be52-045009abb4fe",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/6ec4bdad-a1d9-43ce-9b1a-27a793bbaa63"
+      },
+      "id": "aaaaa",
+      "pageText": "Terapias Integrativas"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Breadcrumbspa/Breadcrumbspa.tsx",
+        "page": {
+          "__resolveType": "PLP Loader"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Content/RichText.tsx",
+        "text": "<p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><strong><span style=\"color: rgb(62, 43, 36); font-size: 24pt;\" data-mce-style=\"color: rgb(62, 43, 36); font-size: 24pt;\">Terapias Integrativas</span></strong></p><p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span style=\"color: rgb(62, 43, 36);\" data-mce-style=\"color: rgb(62, 43, 36);\">As terapias integrativas oferecem alívio para os desconfortos físicos e dores de diferentes origens, como as musculares causadas pela fadiga e má postura.</span></p>"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Sectiongrid/Sectiongrid.tsx",
+      "content": [
+        {
+          "__resolveType": "site/sections/ServiceSpaSimple/ServiceSpaSimple.tsx",
+          "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 160</span></strong></p>",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/e0420685-d8d5-43fe-9202-e9ec809d102b",
+          "desktop": {
+            "width": "410",
+            "height": "200"
+          },
+          "mobile": {
+            "width": "351",
+            "height": "140"
+          },
+          "title": "<p><span>Acupuntura</span></p>",
+          "firsttext": "<p>Utiliza a inserção de agulhas em pontos específicos do corpo para estimular o fluxo de energia, promovendo modulação e equilíbrio em todo o organismo.</p>",
+          "time": "<p><span style=\"color: #ffffff\">50 mins.</span></p>",
+          "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20ACUPUNTURA."
+        },
+        {
+          "__resolveType": "site/sections/ServiceSpaSimple/ServiceSpaSimple.tsx",
+          "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 110</span></strong></p>",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/d44d610c-362c-4626-942d-00d3c17f93af",
+          "desktop": {
+            "width": "410",
+            "height": "200"
+          },
+          "mobile": {
+            "width": "351",
+            "height": "140"
+          },
+          "title": "<p><span>Argiloterapia</span></p>",
+          "firsttext": "<p><span>Utiliza os benefícios dos minerais presentes nas argilas para tratar diversas regiões do corpo. Elimina toxinas, melhora o aspecto da pele e auxilia no tratamento de contusões, dores e tensões.</span></p>",
+          "time": "<p><span style=\"color: #ffffff\">50 mins.</span></p>",
+          "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20ARGILOTERAPIA."
+        },
+        {
+          "__resolveType": "site/sections/ServiceSpaSimple/ServiceSpaSimple.tsx",
+          "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 110</span></strong></p>",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/1fb0fe46-abd2-494b-9b71-219b47b3b30f",
+          "desktop": {
+            "width": "410",
+            "height": "200"
+          },
+          "mobile": {
+            "width": "351",
+            "height": "140"
+          },
+          "title": "<p><span>Aromaterapia</span></p>",
+          "firsttext": "<p><span>Utiliza o aroma dos óleos essenciais para restabelecer o equilíbrio físico e emocional, podendo ser administrada através de massagens, compressas, cremes, banhos ou aromatizadores.</span></p>",
+          "time": "<p><span style=\"color: #ffffff\">40 mins.</span></p>",
+          "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20AROMATERAPIA."
+        },
+        {
+          "__resolveType": "site/sections/ServiceSpaSimple/ServiceSpaSimple.tsx",
+          "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 170</span></strong></p>",
+          "desktop": {
+            "width": "410",
+            "height": "200"
+          },
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/6f20c8ac-0804-4109-ba2b-5d4aa12ffbdb",
+          "mobile": {
+            "width": "351",
+            "height": "140"
+          },
+          "title": "<p><span>Arteterapia</span></p>",
+          "firsttext": "<p><span>Indicada para todas as idades, utiliza as diversas formas de arte para ajudar no enfrentamento de questões emocionais e no desenvolvimento do autoconhecimento.</span></p>",
+          "time": "<p><span style=\"color: #ffffff\">50 mins.</span></p>",
+          "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20ARTETERAPIA."
+        },
+        {
+          "__resolveType": "website/sections/Rendering/Lazy.tsx",
+          "section": {
+            "__resolveType": "site/sections/ServiceSpaSimple/ServiceSpaSimple.tsx",
+            "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 60</span></strong></p>",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/99dc4c6f-0fa1-4c38-92f7-32bd0bf83632",
+            "desktop": {
+              "width": "410",
+              "height": "200"
+            },
+            "mobile": {
+              "width": "351",
+              "height": "140"
+            },
+            "title": "<p>Auriculoterapia</p>",
+            "firsttext": "<p><span>Atua através de pontos de pressão na orelha e é indicada para o alívio de sintomas físicos e emocionais, auxiliando no tratamento de transtornos, vícios, alergias e problemas motores.</span></p>",
+            "time": "<p><span style=\"color: #ffffff\">30 mins.</span></p>",
+            "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20AURICULOTERAPIA."
+          }
+        },
+        {
+          "__resolveType": "website/sections/Rendering/Lazy.tsx",
+          "section": {
+            "__resolveType": "site/sections/ServiceSpaSimple/ServiceSpaSimple.tsx",
+            "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 70</span></strong></p>",
+            "desktop": {
+              "width": "410",
+              "height": "200"
+            },
+            "mobile": {
+              "width": "351",
+              "height": "140"
+            },
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/e99d17d0-b043-4b6f-ada7-9e91093cbed6",
+            "title": "<p><span>Meditação</span></p>",
+            "firsttext": "<p><span>Prática que consiste em treinar o foco de atenção para melhorar o desempenho cognitivo e emocional. Excelente ferramenta para aprimorar o autoconhecimento e a autotransformação.</span></p>",
+            "time": "<p><span style=\"color: #ffffff\">50 mins.</span></p>",
+            "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20MEDITA%C3%87%C3%83O."
+          }
+        },
+        {
+          "__resolveType": "site/sections/ServiceSpaSimple/ServiceSpaSimple.tsx",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/a82da0aa-6ba8-487b-9de0-b219fdafab50",
+          "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20NUTRICIONISTA.",
+          "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 400</span></strong></p>",
+          "title": "<p>Nutricionista</p>",
+          "firsttext": "<p><span>Busca compreender as necessidades e os objetivos de saúde a fim de fornecer orientação nutricional personalizada, visando a melhoria da saúde física e a qualidade de vida.</span></p>",
+          "time": "<p><span style=\"color: rgb(255, 255, 255)\">60 mins.</span></p>"
+        },
+        {
+          "__resolveType": "website/sections/Rendering/Lazy.tsx",
+          "section": {
+            "__resolveType": "site/sections/ServiceSpaSimple/ServiceSpaSimple.tsx",
+            "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 170</span></strong></p>",
+            "desktop": {
+              "width": "410",
+              "height": "200"
+            },
+            "mobile": {},
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/4d2b2493-3a85-4df7-b35c-8b2430bceb90",
+            "firsttext": "<p><span>Através da análise de padrões inconscientes da mente, proporciona um processo terapêutico profundo que auxilia no desenvolvimento do autoconhecimento, da autorreflexão e na transformação pessoal.</span></p>",
+            "title": "<p><span>Psicanálise</span></p>",
+            "time": "<p><span style=\"color: #ffffff\">60 mins.</span></p>",
+            "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20PSICAN%C3%81LISE."
+          }
+        },
+        {
+          "__resolveType": "website/sections/Rendering/Lazy.tsx",
+          "section": {
+            "__resolveType": "site/sections/ServiceMap/ServiceMap..tsx",
+            "desktop": {
+              "width": "410",
+              "height": "200"
+            },
+            "mobile": {
+              "width": "351",
+              "height": "140"
+            },
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/phytoterapica/6d0390e4-b71a-402c-a4fb-e1d8e79776e4/bf6a8118-e2ed-4f37-96a6-c4f923d9.png",
+            "firsttext": "<p>Visa a promoção do bem-estar geral através do incentivo ao autocuidado e às mudanças de hábitos, utilizando métodos terapêuticos naturais de forma complementar.</p>",
+            "title": "<p>Naturopatia</p>",
+            "services": [
+              {
+                "title": "Naturopatia",
+                "time": "<p><span style=\"color: #ffffff\">90 mins.</span></p>",
+                "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 250</span></strong></p>",
+                "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20NATUROPATIA."
+              },
+              {
+                "title": "Naturopatia Acompanhamento",
+                "time": "<p><span style=\"color: #ffffff\">50 mins. </span></p>",
+                "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 200</span></strong></p>"
+              }
+            ]
+          }
+        },
+        {
+          "__resolveType": "website/sections/Rendering/Lazy.tsx",
+          "section": {
+            "__resolveType": "site/sections/ServiceSpaSimple/ServiceSpaSimple.tsx",
+            "desktop": {
+              "width": "410",
+              "height": "200"
+            },
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/2b6d00d0-effd-4459-8d74-a1cffbbf7f41",
+            "mobile": {
+              "width": "351"
+            },
+            "title": "<p><span>Psicologia</span></p>",
+            "firsttext": "<p><span>Explora as questões emocionais para ajudar na solução de conflitos internos e no desenvolvimento de habilidades de enfrentamento, auxiliando no processo de autoconhecimento e na busca por uma vida com mais equilíbrio.</span></p>",
+            "time": "<p><span style=\"color: #ffffff\">50 mins.</span></p>",
+            "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 170</span></strong></p>",
+            "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20PSICOLOGIA."
+          }
+        },
+        {
+          "__resolveType": "website/sections/Rendering/Lazy.tsx",
+          "section": {
+            "__resolveType": "site/sections/ServiceSpaSimple/ServiceSpaSimple.tsx",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/1c6e8114-6b08-4b2f-8a50-cd3bacc416bc",
+            "desktop": {},
+            "mobile": {},
+            "title": "<p><span>Reike</span></p>",
+            "firsttext": "<p><span>Utiliza a imposição das mãos para transferência de energia vital com o intuito de restabelecer o equilíbrio do campo energético humano, estimulando a capacidade de autocura.</span></p>",
+            "time": "<p><span style=\"color: #ffffff\">30 mins.</span></p>",
+            "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20REIKE.",
+            "price": "<p><strong><span style=\"color: rgb(254, 251, 251)\">R$ 90</span></strong></p>"
+          }
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/WhatsappContacts/WhatsappContact.tsx"
+    },
+    {
+      "__resolveType": "Footer - 04"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

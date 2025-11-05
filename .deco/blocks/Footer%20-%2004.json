@@ -1,0 +1,292 @@
+{
+  "logo": {
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/f65a9d10-9b82-4930-acff-6d5990e595aa"
+  },
+  "layout": {
+    "hide": {
+      "logo": false,
+      "mobileApps": false,
+      "newsletter": false,
+      "socialLinks": false,
+      "regionOptions": false
+    },
+    "variation": "Variation 4",
+    "backgroundColor": "Base 100"
+  },
+  "social": {
+    "items": [
+      {
+        "link": "https://www.instagram.com/phytoterapicabrasil/",
+        "label": "Instagram"
+      },
+      {
+        "link": "https://www.facebook.com/phytoterapica/?epa=SEARCH_BOX",
+        "label": "Facebook"
+      },
+      {
+        "link": "https://blog.phytoterapica.com.br/",
+        "label": "Blog"
+      },
+      {
+        "link": "https://www.youtube.com/phytoterapicabrasil",
+        "label": "YouTube"
+      },
+      {
+        "link": "https://www.tiktok.com/@phytoterapica",
+        "label": "Tiktok"
+      }
+    ],
+    "title": "Siga-nos nas redes"
+  },
+  "payments": {
+    "items": [
+      {
+        "label": "Mastercard"
+      },
+      {
+        "label": "Visa"
+      },
+      {
+        "label": "Amex"
+      },
+      {
+        "label": "Elo"
+      },
+      {
+        "label": "Hipercard"
+      },
+      {
+        "label": "Pix"
+      }
+    ],
+    "title": "Formas de pagamento"
+  },
+  "sections": [
+    {
+      "items": [
+        {
+          "href": "/institucional/quem-somos",
+          "label": "Quem somos (A Empresa)"
+        },
+        {
+          "href": "https://phytoterapicasdc.zendesk.com/hc/pt-br",
+          "label": "Central de Ajuda"
+        },
+        {
+          "label": "Trabalhe Conosco",
+          "href": "https://phytoterapica.vagas.solides.com.br/"
+        },
+        {
+          "href": "/seja-nossa-consultora",
+          "label": "Consultoria"
+        },
+        {
+          "href": "/institucional/compre-por-atacado",
+          "label": "Atacado"
+        }
+      ],
+      "label": "Sobre",
+      "children": [
+        {
+          "href": "/quemsomos",
+          "label": "Quem somos"
+        },
+        {
+          "href": "/privacidadeeseguranca",
+          "label": "Privacidade e segurança"
+        },
+        {
+          "href": "/termosdeuso",
+          "label": "Termos de uso"
+        },
+        {
+          "href": "/trabalheconosco",
+          "label": "Trabalhe conosco"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "href": "/institucional/politica-de-entrega",
+          "label": "Política de Entrega"
+        },
+        {
+          "href": "/institucional/politica-de-troca-e-devolucao",
+          "label": "Política de Troca e Devolução"
+        },
+        {
+          "href": "/institucional/ingestao-de-oleos-essenciais",
+          "label": "Ingestão de Óleos Essenciais"
+        },
+        {
+          "href": "/institucional/cromatografia",
+          "label": "Cromatografia"
+        },
+        {
+          "href": "https://phytoterapica.troquefacil.com.br/",
+          "label": "Troca Fácil"
+        },
+        {
+          "href": "/institucional/politica-de-privacidade",
+          "label": "Aviso de Privacidade"
+        },
+        {
+          "href": "/institucional/termos-e-condicoes",
+          "label": "Termos e Condições"
+        },
+        {
+          "href": "mailto:privacidade@phytoterapica.com.br",
+          "label": "Encarregado de Dados JKD ME"
+        },
+        {
+          "label": "privacidade@phytoterapica.com.br",
+          "href": "mailto:privacidade@phytoterapica.com.br"
+        }
+      ],
+      "label": "Suporte",
+      "children": [
+        {
+          "href": "/centraldeatendimento",
+          "label": "Central de atendimento"
+        },
+        {
+          "href": "/whatsapp",
+          "label": "Fale conosco pelo WhatsApp"
+        },
+        {
+          "href": "/trocaedevolucao",
+          "label": "Troca e devolução"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "href": "/login",
+          "label": "Login"
+        },
+        {
+          "href": "/checkout/#/cart",
+          "label": "Carrinho"
+        },
+        {
+          "href": "/account",
+          "label": "Minha Conta"
+        },
+        {
+          "href": "/account#/orders",
+          "label": "Meus Pedidos"
+        }
+      ],
+      "label": "Área do Cliente",
+      "children": [
+        {
+          "href": "/loginecadastro",
+          "label": "Login e cadastro"
+        },
+        {
+          "href": "/meuspedidos",
+          "label": "Meus pedidos"
+        }
+      ]
+    }
+  ],
+  "bottomInfo": {
+    "info1": {
+      "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/ef199a60-2915-4720-a11f-129729cb1874",
+      "text": "sem componentes de origem animal",
+      "title": "Vegano"
+    },
+    "info2": {
+      "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/06be2669-2da9-4edc-b14e-967e8dc457cb",
+      "text": "não testado em animais",
+      "title": "Cruelty-Free"
+    },
+    "info3": {
+      "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/d1f6610e-c3c1-4d4d-8a73-5427f9965ac8",
+      "text": "óleos puros e naturais",
+      "title": "100% Puro"
+    }
+  },
+  "extraLinks": [
+    {
+      "href": "/institucional/politica-de-privacidade",
+      "label": "Aviso de Privacidade"
+    },
+    {
+      "href": "http://www.google.com",
+      "link": "http://www.google.com",
+      "label": "Termos de serviço"
+    }
+  ],
+  "mobileApps": {
+    "apple": "http://www.google.com",
+    "android": "http://www.google.com"
+  },
+  "newsletter": {
+    "form": {
+      "helpText": "<p>Concordo que a Phytoterápica pode usar meus dados de contato e interações, e aceito os termos da <a href=\"../../../institucional/politica-de-privacidade\" class=\"link\" data-mce-href=\"../../../institucional/politica-de-privacidade\" data-mce-selected=\"inline-boundary\" target=\"_blank\" rel=\"noopener\">Política de Privacidade</a>.</p>",
+      "buttonText": "Assinar newsletter",
+      "placeholder": "Seu e-mail"
+    },
+    "title": "Inscreva-se",
+    "description": "E receba novidades e promoções"
+  },
+  "backToTheTop": {
+    "text": "Voltar ao topo"
+  },
+  "certificates": [
+    {
+      "certificates": {
+        "link": "https://www.vtex.com",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/99001384-0d58-42f3-a2ff-d95410da0c90"
+      }
+    },
+    {
+      "certificates": {
+        "link": "https://transparencyreport.google.com/safe-browsing/search?url=loja.phytoterapica.com.br",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/ce7a2dda-3db8-4be6-b0fb-65388b29f458"
+      }
+    },
+    {
+      "certificates": {
+        "link": "https://www.eureciclo.com.br/",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/f6349241-4892-492a-9c90-cbdb997b3bf8"
+      }
+    },
+    {
+      "certificates": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/33d9564c-37a3-483d-994a-6874285065ac"
+      }
+    }
+  ],
+  "__resolveType": "site/sections/Footer/Footer.tsx",
+  "regionOptions": {
+    "currency": [
+      {
+        "href": "/",
+        "label": "Brasil BRL"
+      },
+      {
+        "href": "/",
+        "label": "United Stated USD"
+      }
+    ],
+    "language": [
+      {
+        "href": "/",
+        "label": "PT"
+      },
+      {
+        "href": "/",
+        "label": "EN"
+      }
+    ]
+  },
+  "managedBySection": {
+    "link": "https://www.socialsa.com",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/3d5ebfa0-39ea-4734-8d25-653ec94bd9f1",
+    "operatedByText": "A loja Phytoterápica é operada pela Social S.A. <br /> CNPJ: 72.962.327/0007-40 - Endereço: Avenida Portugal, 46, Galpão 01 Setor C1 - Itapevi - SP, CEP: 06696-060- 2024 Copyright Phytoterápica. Todos os direitos reservados."
+  }
+}

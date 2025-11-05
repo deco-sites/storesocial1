@@ -1,0 +1,81 @@
+{
+  "name": "Quem Somos",
+  "path": "/institucional/quem-somos",
+  "sections": [
+    {
+      "title": "Bem vindo a Phytoterápica",
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "titleTemplate": "%s - Phytoterápica",
+      "descriptionTemplate": "%s - Phytoterápica"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/c5d706af-d658-4e74-9097-c137121858a9",
+          "alt": "Phytoterápica fachada",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/0ae56d92-8b6d-4a85-8d5a-3f3205bcee7f"
+        }
+      ],
+      "preload": true,
+      "__resolveType": "site/sections/Images/Carousel.tsx"
+    },
+    {
+      "services": [
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/1d3fd34c-a8f9-4b4b-9932-ed6e7d64e0fc",
+          "label": "Bem vindo a Phytoterápica",
+          "placement": "left",
+          "description": "<p class=\"MsoNormal\"><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Bem-vindo à Phytoterápica. Desde 1993 proporcionando bem-estar!</span></p><p class=\"MsoNormal\"><br data-mce-bogus=\"1\"></p><p class=\"MsoNormal\"><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Somos uma empresa pioneira na aromaterapia no Brasil e referência em produtos clean beauty, veganos e sustentáveis. Presente em todo país nas principais frentes de atuação de mercado: e-commerce, lojas físicas, venda atacado e venda direta, contamos ainda com um SPA urbano para práticas integrativas, o PhytoSPA, localizado na cidade de São Paulo.</span></p><p class=\"MsoNormal\"><br data-mce-bogus=\"1\"></p><p class=\"MsoNormal\"><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Prezamos por corpo e mente em equilíbrio através da aromaterapia e de produtos de autocuidado facial, corporal e capilar de alta qualidade, formulados com nossos óleos essenciais e vegetais 100% puros e naturais. Dizemos não aos parabenos, petrolatos, sulfatos, ftalatos e formol.</span></p><p class=\"MsoNormal\"><br data-mce-bogus=\"1\"></p><p class=\"MsoNormal\"><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Cruelty-free, nossos produtos refletem respeito ao bem-estar das pessoas, dos animais e do planeta. Contamos com o selo eureciclo, que certifica a logística reversa de embalagens pós-consumo, reforçando nosso compromisso com a sustentabilidade e responsabilidade ambiental.</span></p><p><br><br></p><p class=\"font-arial text-2xl text-gray-6 full-phone:text-xl\"><br data-mce-bogus=\"1\"></p>"
+        }
+      ],
+      "__resolveType": "site/sections/Content/TextWithImage.tsx"
+    },
+    {
+      "layout": {
+        "variation": "Grid",
+        "headerAlignment": "center"
+      },
+      "testimonials": [
+        {
+          "user": {
+            "name": "Missão"
+          },
+          "image": {},
+          "text": "Proporcionar bem-estar por meio da aromaterapia e de produtos clean beauty, veganos e sustentáveis."
+        },
+        {
+          "text": "Ser referência na promoção do autocuidado, harmonizando saúde, beleza e bem-estar com as necessidades do planeta.",
+          "user": {
+            "name": "Visão"
+          },
+          "image": {}
+        },
+        {
+          "user": {
+            "name": "Valores"
+          },
+          "image": {},
+          "text": "Ética. Equilíbrio entre a busca por produtos de alta qualidade e a manutenção dos recursos naturais. Compromisso com a beleza consciente."
+        }
+      ],
+      "__resolveType": "site/sections/Content/Testimonials.tsx"
+    },
+    {
+      "services": [
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/4e564344-3faf-4c80-afea-c1562cd73784",
+          "placement": "right",
+          "description": "<p class=\"font-arial text-2xl text-gray-6 full-phone:text-xl\">A aromaterapia deve ser compreendida como uma prática integrativa,<br>complementar e holística, e não como tratamento <strong>médido</strong>.<br>Não é indicado trocar ou substituir nenhum remédio convencional pelo<br>uso dos óleos essenciais. As informações contidas aqui são sugestões baseadas em literatura e pesquisas relacionadas à Aromaterapia.</p>"
+        }
+      ],
+      "__resolveType": "site/sections/Content/TextWithImage.tsx"
+    },
+    {
+      "__resolveType": "Footer - 04"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

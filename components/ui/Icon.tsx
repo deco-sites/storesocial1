@@ -2,41 +2,80 @@ import { asset } from "$fresh/runtime.ts";
 import type { JSX } from "preact";
 
 export type AvailableIcons =
-  | "search"
-  | "shopping_bag"
-  | "menu"
-  | "account_circle"
-  | "close"
-  | "chevron-right"
-  | "favorite"
-  | "home_pin"
-  | "call"
-  | "local_shipping"
-  | "pan_zoom"
+  | "ArrowsPointingOut"
+  | "Bars3"
+  | "ChevronLeft"
+  | "ChevronRight"
+  | "ChevronUp"
+  | "ChevronDown"
+  | "CreditCard"
+  | "Deco"
+  | "Diners"
+  | "Discord"
+  | "Discount"
+  | "Elo"
+  | "Facebook"
+  | "FilterList"
+  | "Heart"
+  | "Instagram"
+  | "Linkedin"
+  | "Minus"
+  | "MapPin"
+  | "MagnifyingGlass"
+  | "Mastercard"
+  | "Message"
+  | "Phone"
+  | "Pix"
+  | "Plus"
+  | "QuestionMarkCircle"
+  | "Return"
+  | "Ruler"
+  | "ShoppingCart"
+  | "Star"
+  | "Tiktok"
+  | "Trash"
+  | "Truck"
+  | "Twitter"
+  | "User"
+  | "Visa"
+  | "WhatsApp"
+  | "XMark"
+  | "Zoom"
+  | "Alert"
+  | "AlertInfo"
+  | "AlertSuccess"
+  | "AlertWarning"
+  | "AlertError"
   | "share"
-  | "sell"
-  | "check-circle"
-  | "error"
-  | "trash";
+  | "EmptySearch"
+  | "GreenWhatsApp"
+  | "HomePhytospaMob"
+  | "PhytospaLeft"
+  | "PhytospaRight"
+  | "LupaGreen"
+  | "whatsappbtn"
+  | "clock"
+  | "NotFound";
 
 interface Props extends JSX.SVGAttributes<SVGSVGElement> {
   /**
    * Symbol id from element to render. Take a look at `/static/icons.svg`.
    *
-   * Example: <Icon id="search" />
+   * Example: <Icon id="Bell" />
    */
   id: AvailableIcons;
   size?: number;
 }
 
 function Icon(
-  { id, size = 24, width, height, ...otherProps }: Props,
+  { id, strokeWidth = 16, size, width, height, ...otherProps }: Props,
 ) {
   return (
     <svg
       {...otherProps}
       width={width ?? size}
       height={height ?? size}
+      strokeWidth={strokeWidth}
     >
       <use href={asset(`/sprites.svg#${id}`)} />
     </svg>

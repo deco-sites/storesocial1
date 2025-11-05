@@ -1,0 +1,113 @@
+{
+  "name": "Terapias de bem-estar",
+  "path": "/phytospa/terapias-de-bem-estar",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "title": "Terapias de Bem Estar",
+      "titleTemplate": "%s - PhytoSPA"
+    },
+    {
+      "__resolveType": "Header PhytoSpa"
+    },
+    {
+      "__resolveType": "site/sections/ImageBreadcrumb/ImageBreadcrumb.tsx",
+      "Banner": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/141cc3c0-fc15-4e83-aee2-75d0ee001081"
+      },
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/13fb68b4-8f36-44b1-b064-8850e82389f2",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/8adecb89-1e8d-4193-a7d0-02400ea37422"
+      },
+      "id": "aaa",
+      "pageText": "Terapias de Bem-Estar"
+    },
+    {
+      "__resolveType": "site/sections/Content/RichText.tsx",
+      "text": "<p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span style=\"color: rgb(62, 43, 36);\" data-mce-style=\"color: rgb(62, 43, 36);\"><strong><span style=\"font-size: 24pt;\" data-mce-style=\"font-size: 24pt;\">Terapias de Bem-Estar</span></strong></span></p><p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span style=\"color: rgb(62, 43, 36); font-size: 14pt;\" data-mce-style=\"color: rgb(62, 43, 36); font-size: 14pt;\"><span id=\"_mce_caret\" data-mce-bogus=\"1\" data-mce-type=\"format-caret\">﻿Em meio a sensação de um banho altamente prazeroso e aromático, o ofurô e o escalda-pés auxiliam na diminuição de sinais de cansaço e tensões corporais.</span><br data-mce-bogus=\"1\"></span></p>"
+    },
+    {
+      "__resolveType": "site/sections/Sectiongrid/Sectiongrid.tsx",
+      "content": [
+        {
+          "__resolveType": "site/sections/ServiceMap/ServiceMap..tsx",
+          "firsttext": "<p><span>Promove o relaxamento e estimula a circulação sanguínea e linfática, resultando na redução do acúmulo de líquidos e edema nos pés.</span></p>",
+          "desktop": {
+            "width": "410",
+            "height": "200"
+          },
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/dd2be24f-9c8c-4a23-be6e-3c08022be013",
+          "mobile": {
+            "width": "351",
+            "height": "140"
+          },
+          "title": "<p>Escalda-Pés</p>",
+          "services": [
+            {
+              "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 70</span></strong></p>",
+              "title": "Escalda-Pés",
+              "time": "<p><span style=\"color: #ffffff\">30 mins.</span></p>",
+              "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20ESCALDA-P%C3%89S."
+            },
+            {
+              "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 130</span></strong></p>",
+              "title": "Escalda-Pés + Reflexologia Podal",
+              "time": "<p><span style=\"color: #ffffff\">50 mins.</span></p>",
+              "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20ESCALDA-P%C3%89S%20+%20REFLEXOLOGIA%20PODAL."
+            }
+          ]
+        },
+        {
+          "__resolveType": "site/sections/ServiceMap/ServiceMap..tsx",
+          "firsttext": "<p><span>Promove o relaxamento, a desintoxicação da pele, o reequilíbrio hormonal e a melhora da circulação sanguínea, contribuindo para a redução de dores e inflamações.</span></p>",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/36aad871-801b-4ab6-bb52-c8242db33ef0",
+          "desktop": {
+            "width": "410",
+            "height": "200"
+          },
+          "mobile": {
+            "width": "351",
+            "height": "140"
+          },
+          "services": [
+            {
+              "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 240</span></strong></p>",
+              "title": "Banho de Ofurô Individual",
+              "time": "<p><span style=\"color: rgb(255, 255, 255)\">25 mins.</span></p>",
+              "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20BANHO%20DE%20OFUR%C3%94%20INDIVIDUAL."
+            },
+            {
+              "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 270</span></strong></p>",
+              "title": "Banho de Ofurô Casal",
+              "time": "<p><span style=\"color: #ffffff\">40 mins.</span></p>",
+              "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20BANHO%20DE%20OFUR%C3%94%20CASAL."
+            },
+            {
+              "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 360</span></strong></p>",
+              "title": "Banho de Ofurô + Massagem Individual",
+              "time": "<p><span style=\"color: #ffffff\">85 mins.</span></p>",
+              "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20BANHO%20DE%20OFUR%C3%94%20+%20MASSAGEM%20INDIVIDUAL."
+            },
+            {
+              "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 540</span></strong></p>",
+              "title": "Banho de Ofurô + Massagem Casal",
+              "time": "<p><span style=\"color: #ffffff\">90 mins.</span></p>",
+              "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20BANHO%20DE%20OFUR%C3%94%20+%20MASSAGEM%20CASAL."
+            }
+          ],
+          "title": "<p>Banho de Ofurô</p>"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/WhatsappContacts/WhatsappContact.tsx"
+    },
+    {
+      "__resolveType": "Footer - 04"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

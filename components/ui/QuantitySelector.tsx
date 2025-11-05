@@ -1,60 +1,53 @@
-import { type JSX } from "preact";
-import { clx } from "../../sdk/clx.ts";
-import { useId } from "../../sdk/useId.ts";
-import { useScript } from "@deco/deco/hooks";
-const onClick = (delta: number) => {
-  // doidera!
-  event!.stopPropagation();
-  const button = event!.currentTarget as HTMLButtonElement;
-  const input = button.parentElement
-    ?.querySelector<HTMLInputElement>('input[type="number"]')!;
-  const min = Number(input.min) || -Infinity;
-  const max = Number(input.max) || Infinity;
-  input.value = `${Math.min(Math.max(input.valueAsNumber + delta, min), max)}`;
-  input.dispatchEvent(new Event("change", { bubbles: true }));
-};
-function QuantitySelector(
-  { id = useId(), disabled, ...props }: JSX.IntrinsicElements["input"],
-) {
+import Button from "../ui/Button.tsx";
+
+interface Props {
+  quantity: number;
+  disabled?: boolean;
+  loading?: boolean;
+  onChange?: (quantity: number) => void;
+}
+
+const QUANTITY_MAX_VALUE = 100;
+
+function QuantitySelector({ onChange, quantity, disabled, loading }: Props) {
+  const decrement = () => onChange?.(Math.max(0, quantity - 1));
+
+  const increment = () =>
+    onChange?.(Math.min(quantity + 1, QUANTITY_MAX_VALUE));
+
   return (
-    <div class="join border rounded w-full">
-      <button
-        type="button"
-        class="btn btn-square btn-ghost no-animation"
-        hx-on:click={useScript(onClick, -1)}
+    <div class="join border border-gray-1 rounded-full w-min px-[18px] h-10">
+      <Button
+        class="bg-transparent flex min-h-10 h-10 border-0 hover:bg-transparent px-[6px] font-montserrat text-[18px] text-gray-3 join-item"
+        onClick={decrement}
         disabled={disabled}
+        loading={loading}
       >
         -
-      </button>
-      <div
-        data-tip={`Quantity must be between ${props.min} and ${props.max}`}
-        class={clx(
-          "flex-grow join-item",
-          "flex justify-center items-center",
-          "has-[:invalid]:tooltip has-[:invalid]:tooltip-error has-[:invalid]:tooltip-open has-[:invalid]:tooltip-bottom",
-        )}
-      >
-        <input
-          id={id}
-          class={clx(
-            "input text-center flex-grow [appearance:textfield]",
-            "invalid:input-error",
-          )}
-          disabled={disabled}
-          inputMode="numeric"
-          type="number"
-          {...props}
-        />
-      </div>
-      <button
-        type="button"
-        class="btn btn-square btn-ghost no-animation"
-        hx-on:click={useScript(onClick, 1)}
+      </Button>
+      <input
+        class="input focus:outline-0 font-montserrat text-center text-sm font-medium text-gray-6 min-h-[38px] h-[38px] w-[22px] p-0 join-item [appearance:textfield]"
+        type="number"
+        inputMode="numeric"
+        pattern="[0-9]*"
+        max={QUANTITY_MAX_VALUE}
+        min={1}
+        value={quantity}
         disabled={disabled}
+        onBlur={(e) => onChange?.(e.currentTarget.valueAsNumber)}
+        maxLength={3}
+        size={3}
+      />
+      <Button
+        class="bg-transparent flex min-h-10 h-10 border-0 hover:bg-transparent px-[6px] font-montserrat text-[18px] text-gray-3 join-item"
+        onClick={increment}
+        disabled={disabled}
+        loading={loading}
       >
         +
-      </button>
+      </Button>
     </div>
   );
 }
+
 export default QuantitySelector;

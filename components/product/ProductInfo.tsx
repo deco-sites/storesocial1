@@ -1,149 +1,144 @@
+import { SendEventOnView } from "$store/components/Analytics.tsx";
+import AddToCartButtonPDP from "$store/islands/AddToCartButton/vtexPDP.tsx";
+import OutOfStock from "$store/islands/OutOfStock.tsx";
+import { formatPrice } from "$store/sdk/format.ts";
+import { useId } from "$store/sdk/useId.ts";
+import { useOffer } from "$store/sdk/useOffer.ts";
+import { usePlatform } from "$store/sdk/usePlatform.tsx";
 import { ProductDetailsPage } from "apps/commerce/types.ts";
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
-import { clx } from "../../sdk/clx.ts";
-import { formatPrice } from "../../sdk/format.ts";
-import { useId } from "../../sdk/useId.ts";
-import { useOffer } from "../../sdk/useOffer.ts";
-import { useSendEvent } from "../../sdk/useSendEvent.ts";
-import ShippingSimulationForm from "../shipping/Form.tsx";
-import WishlistButton from "../wishlist/WishlistButton.tsx";
-import AddToCartButton from "./AddToCartButton.tsx";
-import OutOfStock from "./OutOfStock.tsx";
 import ProductSelector from "./ProductVariantSelector.tsx";
+import ProductFields from "$store/components/product/ProductFields.tsx";
 
 interface Props {
   page: ProductDetailsPage | null;
+  layout: {
+    /**
+     * @title Product Name
+     * @description How product title will be displayed. Concat to concatenate product and sku names.
+     * @default product
+     */
+    name?: "concat" | "productGroup" | "product";
+  };
 }
 
-function ProductInfo({ page }: Props) {
+function ProductInfo({ page, layout }: Props) {
+
+  const platform = usePlatform();
   const id = useId();
 
   if (page === null) {
     throw new Error("Missing Product Details Page Info");
   }
 
-  const { breadcrumbList, product } = page;
-  const { productID, offers, isVariantOf } = product;
-  const description = product.description || isVariantOf?.description;
-  const title = isVariantOf?.name ?? product.name;
-
+  const { product } = page;
+  const {
+    productID,
+    offers,
+    name = "",
+    isVariantOf,
+  } = product;
   const {
     price = 0,
     listPrice,
     seller = "1",
+    installments,
     availability,
   } = useOffer(offers);
 
-  const percent = listPrice && price
-    ? Math.round(((listPrice - price) / listPrice) * 100)
-    : 0;
-
-  const breadcrumb = {
-    ...breadcrumbList,
-    itemListElement: breadcrumbList?.itemListElement.slice(0, -1),
-    numberOfItems: breadcrumbList.numberOfItems - 1,
-  };
-
-  const item = mapProductToAnalyticsItem({
+  const eventItem = mapProductToAnalyticsItem({
     product,
-    breadcrumbList: breadcrumb,
     price,
     listPrice,
   });
 
-  const viewItemEvent = useSendEvent({
-    on: "view",
-    event: {
-      name: "view_item",
-      params: {
-        item_list_id: "product",
-        item_list_name: "Product",
-        items: [item],
-      },
-    },
-  });
-
-  //Checks if the variant name is "title"/"default title" and if so, the SKU Selector div doesn't render
-  const hasValidVariants = isVariantOf?.hasVariant?.some(
-    (variant) =>
-      variant?.name?.toLowerCase() !== "title" &&
-      variant?.name?.toLowerCase() !== "default title",
-  ) ?? false;
+  const cientificName = product?.isVariantOf?.additionalProperty?.find(item => item.name === "Nome Científico")?.value;
 
   return (
-    <div {...viewItemEvent} class="flex flex-col" id={id}>
-      {/* Price tag */}
-      <span
-        class={clx(
-          "text-sm/4 font-normal text-black bg-primary bg-opacity-15 text-center rounded-badge px-2 py-1",
-          percent < 1 && "opacity-0",
-          "w-fit",
+    <div class="flex flex-col" id={id}>
+      {/* Code and name */}
+      <div class="Product-info-cy">
+        <h1>
+          <span class="font-normal text-gray-3 text-2xl font-montserrat">
+            {layout?.name === "concat"
+              ? `${isVariantOf?.name} ${name}`
+              : layout?.name === "productGroup"
+                ? isVariantOf?.name
+                : name}
+          </span>
+        </h1>
+        {cientificName && (
+          <span class="cientific-name font-light italic font-montserrat text-lg text-gray-3">
+            {cientificName}
+          </span>
         )}
-      >
-        {percent} % off
-      </span>
-
-      {/* Product Name */}
-      <span class={clx("text-3xl font-semibold", "pt-4")}>
-        {title}
-      </span>
-
-      {/* Prices */}
-      <div class="flex gap-3 pt-1">
-        <span class="text-3xl font-semibold text-base-400">
-          {formatPrice(price, offers?.priceCurrency)}
-        </span>
-        <span class="line-through text-sm font-medium text-gray-400">
-          {formatPrice(listPrice, offers?.priceCurrency)}
-        </span>
       </div>
-
-      {/* Sku Selector */}
-      {hasValidVariants && (
-        <div className="mt-4 sm:mt-8">
-          <ProductSelector product={product} />
+      {/* Prices */}
+      <div class="mt-4">
+        <div class="flex flex-row gap-2 items-end">
+          {(listPrice ?? 0) > price && (
+            <span class="line-through text-gray-1 text-base font-arial font-normal">
+              {formatPrice(listPrice, offers?.priceCurrency)}
+            </span>
+          )}
+          <span class={`font-normal text-2xl ${availability === "https://schema.org/InStock" ? "text-primary" : "text-gray-3"}`}>
+            {formatPrice(price, offers?.priceCurrency)}
+          </span>
+          {availability !== "https://schema.org/InStock" && (
+            <span class="font-arial uppercase font-normal bg-gray-3 text-xs text-white py-1 px-3 rounded-md">
+              Esgotado
+            </span>
+          )}
+          {(listPrice ?? 0) > price && (
+            <div class="bg-primary rounded-[6px] mb-1 w-11 h-5 flex items-center justify-center">
+              <span class="text-white font-arial leading-none py-1 px-[6px] text-sm font-normal">
+                {listPrice && price
+                  ? `-${Math.round(((listPrice - price) / listPrice) * 100)}% `
+                  : ""}
+              </span>
+            </div>
+          )}
         </div>
-      )}
-
+        {availability === "https://schema.org/InStock" && (
+          <span class="font-arial font-normal text-sm text-gray-6">{`(ou em até ${installments})`}</span>
+        )}
+      </div>
+      {/* Sku Selector */}
+      <div class="mt-4 sm:mt-6">
+        <ProductSelector product={product} />
+      </div>
       {/* Add to Cart and Favorites button */}
       <div class="mt-4 sm:mt-10 flex flex-col gap-2">
         {availability === "https://schema.org/InStock"
           ? (
             <>
-              <AddToCartButton
-                item={item}
-                seller={seller}
-                product={product}
-                class="btn btn-primary no-animation"
-                disabled={false}
-              />
-              <WishlistButton item={item} />
+              {platform === "vtex" && (
+                <>
+                  <AddToCartButtonPDP
+                    eventParams={{ items: [eventItem] }}
+                    productID={productID}
+                    seller={seller}
+                  />
+                </>
+              )}
             </>
           )
           : <OutOfStock productID={productID} />}
       </div>
-
-      {/* Shipping Simulation */}
-      <div class="mt-8">
-        <ShippingSimulationForm
-          items={[{ id: Number(product.sku), quantity: 1, seller: seller }]}
-        />
-      </div>
-
-      {/* Description card */}
-      <div class="mt-4 sm:mt-6">
-        <span class="text-sm">
-          {description && (
-            <details>
-              <summary class="cursor-pointer">Description</summary>
-              <div
-                class="ml-2 mt-2"
-                dangerouslySetInnerHTML={{ __html: description }}
-              />
-            </details>
-          )}
-        </span>
-      </div>
+      {/* Product Fields Collapse */}
+      <ProductFields page={page} />
+      {/* Analytics Event */}
+      <SendEventOnView
+        id={id}
+        event={{
+          name: "view_item",
+          params: {
+            item_list_id: "product",
+            item_list_name: "Product",
+            items: [eventItem],
+          },
+        }}
+      />
     </div>
   );
 }

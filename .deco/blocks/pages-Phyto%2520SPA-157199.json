@@ -1,0 +1,145 @@
+{
+  "name": "Phyto SPA",
+  "path": "/phytospa",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/sections/Seo/Seo.tsx",
+        "title": "PhytoSPA",
+        "titleTemplate": "%s - Phytoterápica"
+      }
+    },
+    {
+      "__resolveType": "Header PhytoSpa"
+    },
+    {
+      "__resolveType": "site/sections/Images/MainBannerPhytospa.tsx",
+      "text": "Cuide do seu corpo, mente e espírito no PhytoSPA",
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/26fbe7e6-c623-4611-90e0-523d09e4dbc1",
+        "tablet": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/af4ee88d-95de-40f5-a350-cbc13e270ddf",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/a79b0c63-d3f0-482e-9e65-cfaf2db101ff"
+      },
+      "buttonText": "Nossos serviços",
+      "buttonLink": "#nossos-servicos"
+    },
+    {
+      "__resolveType": "site/sections/Content/TextBannerPhytoSpa.tsx",
+      "text": "Com a missão de proporcionar bem-estar e equilíbrio físico e mental, o PhytoSPA é um refúgio de sossego em meio à agitação da cidade. Com profissionais altamente capacitados para a aplicação precisa de mais de 20 práticas terapêuticas, nosso SPA urbano oferece experiências de autocuidado, conforto e relaxamento para que você possa se desconectar do mundo exterior e renovar suas energias. O PhytoSPA foi idealizado pela Phytoterápica, uma empresa brasileira pioneira em aromaterapia no Brasil, referência em óleos essenciais e produtos veganos que respeitam o meio ambiente.",
+      "title": "Conheça o PhytoSPA",
+      "banner": [
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/phytoterapica/0fa795de-918f-4ddc-ac7d-0d64b71e2b00/image-1-(1).png",
+          "location": "Sala de Pilates"
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/phytoterapica/645b505c-6388-4d13-b28a-f5f406159319/image-1-(2).png",
+          "location": "Sala de Massagem"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/395c107f-264d-408e-988a-597d617b5c9a",
+          "location": "Sala de Ofurô"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/ce76be5a-edda-4b12-bd76-ba33194aa703",
+          "location": "Sala de Escalda-Pés"
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/phytoterapica/a61928fe-13f6-4a10-a601-6d42d1ea1bcb/image-1-(4).png",
+          "location": "Sala Ayurvédica"
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/phytoterapica/55d8a931-5ee3-4a68-97a3-0107734944c8/image-1-(5).png",
+          "location": "Sala Oriental"
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/phytoterapica/dc6bb419-5210-41dd-97d9-b3b615e37131/image-1-(7).png",
+          "location": "Sala Clássica"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/450a4503-13f5-4543-bdf3-f05a227b6022",
+          "location": "Fachada do PhytoSPA"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Content/TextInfoCards.tsx",
+      "text": "Nossos serviços são aplicados por profissionais altamente qualificados em ambientes cheios de personalidade.",
+      "boldText": "Descubra o mundo do PhytoSPA!",
+      "infoCard": [
+        {
+          "cardTitle": "Massagens Corporais",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/eb4a69c2-e7e4-4ee6-980d-3b69aaf75fa1",
+          "text": "Relaxantes e terapêuticas, ideais para aliviar o stress do dia a dia.",
+          "buttonText": "Veja as opções",
+          "buttonLink": "/phytospa/massagens-corporais"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/00078f9b-e0a9-4a77-b97f-da4d34ca3fcc",
+          "text": "Inclua na sua rotina e tenha uma vida mais ativa.",
+          "buttonText": "Veja as opções",
+          "buttonLink": "/phytospa/praticas-corporais",
+          "cardTitle": "Práticas Corporais"
+        },
+        {
+          "cardTitle": "Terapias Integrativas",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/dbdadf37-5114-4fb2-8ed6-882f58ca0257",
+          "text": "Cuide do corpo e da mente de forma integral.",
+          "buttonText": "Veja as opções",
+          "buttonLink": "/phytospa/terapias-integrativas"
+        },
+        {
+          "cardTitle": "Terapias de Bem-Estar",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/95fdda9f-aa9a-4a56-a786-d487b960b3d1",
+          "text": "Viva um momento de puro relaxamento e autocuidado.",
+          "buttonText": "Veja as opções",
+          "buttonLink": "/phytospa/terapias-de-bem-estar"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Content/BannerSchedule.tsx",
+      "carousel": [
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/phytoterapica/845c49c8-5b6b-4fb6-842b-dd8c53168f5a/phytospa-15.png"
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/phytoterapica/53a68308-73c5-4026-b186-ba2cf0f60812/phytospa-20-(1).png"
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/phytoterapica/e1b47fb8-f380-4d7d-a629-19483c4f6c20/phytospa-21-(1).png"
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/phytoterapica/5531ffb2-a7c7-4d3f-81e1-4a68ae35d5f0/phytospa-12.png"
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/phytoterapica/4dfff099-b9f0-420d-a578-b64ba27a12a3/phytospa-13.png"
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/phytoterapica/9d5d9c69-6ec0-4451-84b3-9af581ca500e/Imagem-teste-2-(1)-1-(2).png"
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/phytoterapica/b6b04ef5-957b-40ed-a048-cb4cfaeb2d03/Imagem-teste-2.png"
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/phytoterapica/b631a35e-ed1f-448a-ba7f-d910d0c74e3d/cafe-spa-phyto-22-(1).png"
+        }
+      ],
+      "title": "SEU EVENTO NO PHYTOSPA",
+      "text": "Já pensou em uma comemoração entre amigas? Ou em fazer o evento da sua empresa em um SPA Urbano para esquecer à agitação da cidade?<br/><br/>O PhytoSPA personaliza seu evento e o transforma em uma experiência inesquecível. <br/><br/>Saia do convencional e inove em seus eventos no PhytoSPA!",
+      "buttonText": "Agende agora",
+      "buttonLink": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20aluguel%20do%20espa%C3%A7o%20para%20eventos."
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer - 04"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

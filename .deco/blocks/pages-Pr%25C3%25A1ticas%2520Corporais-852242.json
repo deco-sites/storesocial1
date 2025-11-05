@@ -1,0 +1,192 @@
+{
+  "name": "Práticas Corporais",
+  "path": "/phytospa/praticas-corporais",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "title": "Práticas Corporais",
+      "titleTemplate": "%s - PhytoSPA"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header PhytoSpa"
+      }
+    },
+    {
+      "__resolveType": "site/sections/ImageBreadcrumb/ImageBreadcrumb.tsx",
+      "Banner": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/a049929d-1fe0-491c-9c35-baab079065a4"
+      },
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/99bd471e-76bf-44c1-b1e8-b0915d471bef",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/7f5e0553-4845-4acd-a34c-906ac74a4027"
+      },
+      "id": "aaaaaa",
+      "pageText": "Práticas Corporais"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Breadcrumbspa/Breadcrumbspa.tsx",
+        "page": {
+          "__resolveType": "PLP Loader"
+        }
+      }
+    },
+    {
+      "__resolveType": "site/sections/Content/RichText.tsx",
+      "text": "<p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span style=\"font-size: 24pt; color: rgb(62, 43, 36);\" data-mce-style=\"font-size: 24pt; color: rgb(62, 43, 36);\">Práticas Corporais</span></p><p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span style=\"font-size: 14pt; color: rgb(62, 43, 36);\" data-mce-style=\"font-size: 14pt; color: rgb(62, 43, 36);\"><span id=\"_mce_caret\" data-mce-bogus=\"1\" data-mce-type=\"format-caret\">﻿As práticas corporais aumentam o nível de disposição. Por meio da consciência corporal são estimuladas a coordenação motora, a memória e a resistência muscular.</span><br data-mce-bogus=\"1\"></span></p>"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Sectiongrid/Sectiongrid.tsx",
+        "content": [
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/ServiceSpaSimple/ServiceSpaSimple.tsx",
+              "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 50</span></strong></p>",
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/cf4bae62-0d99-41ca-a561-9ca5ba577bfc",
+              "desktop": {
+                "width": "410",
+                "height": "200"
+              },
+              "mobile": {
+                "width": "351",
+                "height": "140"
+              },
+              "title": "<p><span>Dança Circular</span></p>",
+              "firsttext": "<p><span>Combina a dança de roda, o canto e o ritmo para estimular a coordenação motora, o equilíbrio, a memória e o condicionamento físico.</span></p>",
+              "time": "<p><span style=\"color: #ffffff\">50 mins.</span></p>",
+              "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20DAN%C3%87A%20CIRCULAR."
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/ServiceSpaSimple/ServiceSpaSimple.tsx",
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/de589457-4883-46a0-85e7-6fd2c966dda2",
+              "desktop": {
+                "width": "410",
+                "height": "200"
+              },
+              "mobile": {
+                "width": "351",
+                "height": "140"
+              },
+              "title": "<p><span>Flow Dance</span></p>",
+              "firsttext": "<p><span>Uma combinação de movimentos fluidos e expressão corporal que ajuda a promover a autoconsciência, o relaxamento e o bem-estar físico e mental.</span></p>",
+              "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 60</span></strong></p>",
+              "time": "<p><span style=\"color: #ffffff\">50 mins.</span></p>",
+              "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20FLOW%20DANCE."
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/ServiceMap/ServiceMap..tsx",
+              "firsttext": "<p><span>Reúne técnicas de respiração, fortalecimento, equilíbrio, flexibilidade e relaxamento que auxiliam o praticante a se concentrar no momento presente e desenvolver o autoconhecimento.</span></p>",
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/a29990e7-134d-4753-bb00-a543f4f1a824",
+              "desktop": {
+                "width": "410",
+                "height": "200"
+              },
+              "mobile": {
+                "width": "351",
+                "height": "140"
+              },
+              "title": "<p><span>Yoga</span></p>",
+              "services": [
+                {
+                  "price": "<p><strong><span style=\"color: rgb(253, 252, 252)\"> Gratuito</span></strong></p>",
+                  "title": "Aula de Yoga Experimental",
+                  "time": "<p><span style=\"color: rgb(255, 255, 255)\">60 mins. </span></p>",
+                  "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20AULA%20DE%20YOGA%20EXPERIMENTAL."
+                },
+                {
+                  "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 70</span></strong></p>",
+                  "title": "Aula de Yoga",
+                  "time": "<p><span style=\"color: #ffffff\">60 mins.</span></p>",
+                  "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20AULA%20DE%20YOGA."
+                },
+                {
+                  "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 40</span></strong></p>",
+                  "title": "Aula de Yoga Para Crianças",
+                  "time": "<p><span style=\"color: #ffffff\">60 mins.</span></p>",
+                  "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20AULA%20DE%20YOGA%20PARA%20CRIAN%C3%87AS."
+                }
+              ]
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/ServiceMap/ServiceMap..tsx",
+              "firsttext": "<p><span>Trabalha diversos grupos musculares por meio de movimentos suaves e contínuos. Ajuda na expansão da consciência corporal e no fortalecimento e estabilização dos músculos centrais do corpo. &nbsp;</span></p>",
+              "desktop": {
+                "width": "410",
+                "height": "200"
+              },
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/9a9daa78-ad5b-4af4-9d1e-5602a7d715b3",
+              "mobile": {
+                "width": "351",
+                "height": "140"
+              },
+              "title": "<p><span>Pilates</span></p>",
+              "services": [
+                {
+                  "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\"> Gratuito</span></strong></p>",
+                  "title": "Aula de Pilates Solo Experimental",
+                  "time": "<p><span style=\"color: rgb(255, 255, 255)\">50 mins.  </span></p>",
+                  "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20AULA%20DE%20PILATES%20EXPERIMENTAL"
+                },
+                {
+                  "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 70</span></strong></p>",
+                  "title": "Aula de Pilates Solo",
+                  "time": "<p><span style=\"color: #ffffff\">50 mins.</span></p>",
+                  "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20AULA%20DE%20PILATES%20SOLO"
+                },
+                {
+                  "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 50</span></strong></p>",
+                  "title": "Aula de Pilates Studio Experimental",
+                  "time": "<p><span style=\"color: #ffffff\">50 mins.</span></p>",
+                  "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20AULA%20DE%20PILATES%20STUDIO%20EXPERIMENTAL."
+                },
+                {
+                  "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 150</span></strong></p>",
+                  "title": "Aula de Pilates Studio Individual",
+                  "time": "<p><span style=\"color: #ffffff\">50 mins.</span></p>",
+                  "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20AULA%20DE%20PILATES%20STUDIO%20INDIVIDUAL"
+                },
+                {
+                  "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$90</span></strong></p>",
+                  "title": "Aula de Pilates Studio em Grupo",
+                  "time": "<p><span style=\"color: #ffffff\">50 mins.</span></p>",
+                  "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20AULA%20DE%20AULA%20DE%20PILATES%20STUDIO%20EM%20GRUPO."
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/WhatsappContacts/WhatsappContact.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer - 04"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

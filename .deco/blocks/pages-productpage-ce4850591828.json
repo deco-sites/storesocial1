@@ -1,70 +1,118 @@
 {
   "name": "Product Page",
-  "path": "/products/:slug",
+  "path": "/:slug/p",
   "default": {
     "possiblePaths": []
   },
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "commerce/sections/Seo/SeoPDPV2.tsx",
-        "jsonLD": {
-          "__resolveType": "PDP Loader"
-        },
-        "jsonLDs": [
-          {}
-        ]
-      }
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/5f9d0bd7-7d81-448a-a5c6-85a1d73b609f",
+      "jsonLD": {
+        "__resolveType": "PDP Loader"
+      },
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/9e54a82f-2e52-4482-b05a-ea71ca5ac416",
+      "jsonLDs": [
+        {}
+      ],
+      "__resolveType": "commerce/sections/Seo/SeoPDP.tsx",
+      "titleTemplate": "%s",
+      "descriptionTemplate": "%s"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Header"
-      }
+      "__resolveType": "Header - 01"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Product/ProductDetails.tsx",
-        "page": {
-          "__resolveType": "PDP Loader"
+      "page": {
+        "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts",
+        "slug": {
+          "__resolveType": "website/functions/requestToParam.ts",
+          "param": "slug"
         }
-      }
+      },
+      "layout": {
+        "name": "productGroup"
+      },
+      "__resolveType": "site/sections/Product/ProductMain.tsx"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Product/ProductShelf.tsx",
-        "title": "You may also like",
-        "products": {
-          "__resolveType": "shopify/loaders/ProductList.ts",
-          "props": {
-            "sort": "",
-            "query": "a",
-            "count": 9
-          },
-          "filters": {
-            "tags": [],
-            "productTypes": [],
-            "productVendors": [],
-            "variantOptions": []
-          }
+      "page": {
+        "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts",
+        "slug": {
+          "__resolveType": "website/functions/requestToParam.ts",
+          "param": "slug"
         }
+      },
+      "productAs": {
+        "__resolveType": "Custom Product Loader"
+      },
+      "resProduct": {
+        "__resolveType": "Custom Product Loader"
+      },
+      "__resolveType": "site/sections/Product/ProductTabbedInfo.tsx",
+      "returnedProduct": {
+        "__resolveType": "Custom Product Loader"
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Newsletter/Newsletter.tsx"
-      }
+      "page": {
+        "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts",
+        "slug": {
+          "__resolveType": "website/functions/requestToParam.ts",
+          "param": "slug"
+        }
+      },
+      "buyTogether": {
+        "__resolveType": "Custom Buy Together"
+      },
+      "__resolveType": "site/sections/Product/ProductBuyTogether.tsx",
+      "buyTogetherTitle": "Produtos frequentemente comprados juntos:"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Footer"
-      }
+      "page": {
+        "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts",
+        "slug": {
+          "__resolveType": "website/functions/requestToParam.ts",
+          "param": "slug"
+        }
+      },
+      "__resolveType": "site/sections/Product/ProductRelatedTitle.tsx"
+    },
+    {
+      "dots": true,
+      "layout": {
+        "showArrows": true
+      },
+      "products": {
+        "__resolveType": "vtex/loaders/legacy/relatedProductsLoader.ts",
+        "crossSelling": "whosawalsosaw",
+        "count": 12,
+        "slug": {
+          "__resolveType": "website/functions/requestToParam.ts",
+          "param": "slug"
+        }
+      },
+      "cardLayout": {
+        "onMouseOver": {
+          "image": "Change image",
+          "showCta": true
+        }
+      },
+      "__resolveType": "site/sections/Product/ProductShelf.tsx"
+    },
+    {
+      "__resolveType": "Footer - 04"
     }
   ],
-  "__resolveType": "website/pages/Page.tsx"
+  "__resolveType": "website/pages/Page.tsx",
+  "page": {
+    "__resolveType": "commerce/loaders/product/extensions/detailsPage.ts",
+    "data": {
+      "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts",
+      "slug": {
+        "param": "slug",
+        "__resolveType": "website/functions/requestToParam.ts"
+      }
+    },
+    "extensions": []
+  }
 }

@@ -1,0 +1,325 @@
+{
+  "name": "Massagens Corporais",
+  "path": "/phytospa/massagens-corporais",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "title": "Massagens Corporais",
+      "titleTemplate": "%s - PhytoSPA"
+    },
+    {
+      "__resolveType": "Header PhytoSpa"
+    },
+    {
+      "__resolveType": "site/sections/ImageBreadcrumb/ImageBreadcrumb.tsx",
+      "pageText": "Massagens Corporais",
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/7b624ed5-30fb-4890-a923-d91a0d8f1015",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/d250c281-fd0b-458c-b2a8-690b6350deaf",
+        "pageName": "Massagens Corporais",
+        "pageText": "Massagens Corporais",
+        "tablet": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/ea3fd2e8-c41a-4e5c-9cc4-378242927d5f"
+      },
+      "id": "mc"
+    },
+    {
+      "__resolveType": "site/sections/Content/SpaRichText.tsx",
+      "pageText": "As massagens são perfeitas para aliviar dores e tensões do dia a da. Contribuem na melhora do ânimo e na diminuição do stress.",
+      "pageTitle": "Massagens Corporais"
+    },
+    {
+      "__resolveType": "site/sections/Sectiongrid/Sectiongrid.tsx",
+      "content": [
+        {
+          "__resolveType": "site/sections/ServiceSpaSimple/ServiceSpaSimple.tsx",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/07ef3c66-e1c6-40fb-8dfa-63a337b804e9",
+          "desktop": {
+            "width": "410",
+            "height": "200"
+          },
+          "mobile": {
+            "width": "351",
+            "height": "140"
+          },
+          "title": "<p>Aula de Shantala</p>",
+          "firsttext": "<p>Massagem indiana para bebês que pode ser realizada desde o 1º mês de vida. Melhora a saúde digestiva, respiratória e circulatória, além de ajudar a fortalecer o vínculo com os pais.</p>",
+          "time": "<p><span style=\"color: rgb(255, 255, 255)\">40 mins.</span></p>",
+          "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 90</span></strong></p>",
+          "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20AULA%20DE%20SHANTALA."
+        },
+        {
+          "__resolveType": "site/sections/ServiceMap/ServiceMap..tsx",
+          "firsttext": "<p><span>Elimina o excesso de toxinas e líquidos acumulados devido a desequilíbrios no sistema linfático. Melhora a circulação sanguínea e a oxigenação dos tecidos e atua na redução do edema.</span></p>",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/b0d283ac-18fe-4820-adb5-6a2e593b70eb",
+          "desktop": {
+            "width": "410",
+            "height": "200"
+          },
+          "mobile": {
+            "width": "351",
+            "height": "140"
+          },
+          "title": "<p>Drenagem Linfática</p>",
+          "services": [
+            {
+              "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 120</span></strong></p>",
+              "title": "Drenagem Linfática",
+              "time": "<p><span style=\"color: #ffffff\">60 mins.</span></p>",
+              "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20DRENAGEM%20LINF%C3%81TICA."
+            },
+            {
+              "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 150</span></strong></p>",
+              "title": "Drenagem Linfática Para Gestantes",
+              "time": "<p><span style=\"color: #ffffff\">60 mins.</span></p>",
+              "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20DRENAGEM%20LINF%C3%81TICA%20PARA%20GESTANTES."
+            }
+          ]
+        },
+        {
+          "__resolveType": "website/sections/Rendering/Lazy.tsx",
+          "section": {
+            "__resolveType": "site/sections/ServiceSpaSimple/ServiceSpaSimple.tsx",
+            "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 60</span></strong></p>",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/9986555d-6544-46e7-8b61-7a9dbb9418fc",
+            "desktop": {
+              "width": "410",
+              "height": "200"
+            },
+            "mobile": {
+              "width": "351",
+              "height": "140"
+            },
+            "title": "<p><span>Drenagem Linfática Facial</span></p>",
+            "firsttext": "<p><span>Através de manobras lentas e suaves, realizadas com as mãos, elimina as toxinas e o edema da região do rosto, ao mesmo tempo em que promove um relaxamento profundo.</span></p>",
+            "time": "<p><span style=\"color: #ffffff\">30 mins.</span></p>",
+            "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20DRENAGEM%20LINF%C3%81TICA%20FACIAL."
+          }
+        },
+        {
+          "__resolveType": "website/sections/Rendering/Lazy.tsx",
+          "section": {
+            "__resolveType": "site/sections/ServiceSpaSimple/ServiceSpaSimple.tsx",
+            "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 250</span></strong></p>",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/d160ce6a-444d-4c44-994d-a23fcca83050",
+            "desktop": {
+              "width": "410",
+              "height": "200"
+            },
+            "mobile": {
+              "width": "351",
+              "height": "140"
+            },
+            "title": "<p><span>Massagem Ayurvédica</span></p>",
+            "firsttext": "<p><span>Massagem indiana, realizada com as mãos e os pés, que combina alongamentos do Yoga e consciência respiratória. Melhora a circulação sanguínea, reduz a ansiedade e atua no realinhamento da estrutura ósseo-muscular.</span></p>",
+            "time": "<p><span style=\"color: #ffffff\">75 mins.</span></p>",
+            "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20MASSAGEM%20AYURV%C3%89DICA."
+          }
+        },
+        {
+          "__resolveType": "website/sections/Rendering/Lazy.tsx",
+          "section": {
+            "__resolveType": "site/sections/ServiceMap/ServiceMap..tsx",
+            "firsttext": "<p><span>Proporciona um excelente momento de relaxamento, auxiliando no alívio do estresse e da ansiedade e contribuindo para a reconexão e o fortalecimento da relação.</span></p>",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/80b603d1-5f02-444a-82c8-7d5691543fbe",
+            "desktop": {
+              "width": "410",
+              "height": "200"
+            },
+            "mobile": {
+              "width": "351",
+              "height": "140"
+            },
+            "title": "<p>Massagem Casal</p>",
+            "services": [
+              {
+                "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 350</span></strong></p>",
+                "title": "Massagem Casal",
+                "time": "<p><span style=\"color: #ffffff\">50 mins.</span></p>",
+                "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20MASSAGEM%20CASAL."
+              },
+              {
+                "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 540</span></strong></p>",
+                "title": "Massagem Casal + Banho de Ofurô",
+                "time": "<p><span style=\"color: #ffffff\">90 mins.</span></p>",
+                "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20MASSAGEM%20CASAL%20+%20OFUR%C3%94."
+              }
+            ]
+          }
+        },
+        {
+          "__resolveType": "website/sections/Rendering/Lazy.tsx",
+          "section": {
+            "__resolveType": "site/sections/ServiceSpaSimple/ServiceSpaSimple.tsx",
+            "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 220</span></strong></p>",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/2e86c20e-502f-45ee-8829-1c85b38c50e0",
+            "desktop": {
+              "width": "410",
+              "height": "200"
+            },
+            "mobile": {
+              "width": "351",
+              "height": "140"
+            },
+            "title": "<p><span>Massagem com Pedras Quentes</span></p>",
+            "firsttext": "<p><span>Combina os benefícios da massoterapia com a termoterapia através do uso de pedras aquecidas. Auxilia no alívio da dor, no relaxamento da musculatura e promove desintoxicação.</span></p>",
+            "time": "<p><span style=\"color: #ffffff\">75 mins.</span></p>",
+            "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20MASSAGEM%20COM%20PEDRAS%20QUENTES."
+          }
+        },
+        {
+          "__resolveType": "website/sections/Rendering/Lazy.tsx",
+          "section": {
+            "__resolveType": "site/sections/ServiceSpaSimple/ServiceSpaSimple.tsx",
+            "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 150</span></strong></p>",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/a082856e-d9df-4b77-be38-ecea045494fa",
+            "desktop": {
+              "width": "410",
+              "height": "200"
+            },
+            "mobile": {
+              "width": "351",
+              "height": "140"
+            },
+            "title": "<p><span>Massagem para Gestantes</span></p>",
+            "firsttext": "<p><span>Auxilia no fortalecimento da musculatura, na melhora da circulação sanguínea, na redução do edema e no alívio de dores nas costas, estresse e ansiedade.</span></p>",
+            "time": "<p><span style=\"color: #ffffff\">50 mins.</span></p>",
+            "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20MASSAGEM%20PARA%20GESTANTES."
+          }
+        },
+        {
+          "__resolveType": "website/sections/Rendering/Lazy.tsx",
+          "section": {
+            "__resolveType": "site/sections/ServiceSpaDouble/ServiceSpaDouble.tsx",
+            "secondprice": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 180</span></strong></p>",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/8f537d30-9be0-4c00-b741-ebe98d951284",
+            "desktop": {
+              "width": "410",
+              "height": "200"
+            },
+            "mobile": {
+              "width": "351",
+              "height": "140"
+            },
+            "title": "<p><span>Massagem Relaxante</span></p>",
+            "firsttext": "<p><span>Promove o relaxamento e o alívio muscular. Reduz sintomas como fadiga, estresse, ansiedade e outros distúrbios de origem emocional.</span></p>",
+            "time": "<p><span style=\"color: #ffffff\">30 mins.</span></p>",
+            "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 95</span></strong></p>",
+            "secondtime": "<p><span style=\"color: rgb(255, 255, 255)\">50 mins.</span></p>",
+            "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20MASSAGEM%20RELAXANTE."
+          }
+        },
+        {
+          "__resolveType": "website/sections/Rendering/Lazy.tsx",
+          "section": {
+            "__resolveType": "site/sections/ServiceSpaTriple/ServiceSpaTriple.tsx",
+            "thirdprice": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 280</span></strong></p>",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/43ee8da7-010d-4a0c-87d7-aba3e06315c9",
+            "desktop": {
+              "width": "410",
+              "height": "200"
+            },
+            "mobile": {
+              "width": "351",
+              "height": "140"
+            },
+            "title": "<p><span>Massagem Terapêutica</span></p>",
+            "firsttext": "<p><span>Massagem localizada que auxilia na recuperação da região afetada. Alivia desconfortos resultantes de contraturas musculares e esforços repetitivos, dores de cabeça e nas pernas.</span></p>",
+            "time": "<p><span style=\"color: #ffffff\">50 mins.</span></p>",
+            "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 200</span></strong></p>",
+            "secondtime": "<p><span style=\"color: rgb(255, 255, 255)\">60 mins.</span></p>",
+            "secondprice": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 250</span></strong></p>",
+            "thirdtime": "<p><span style=\"color: #ffffff\">90 mins.</span></p>",
+            "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20MASSAGEM%20TERAP%C3%8AUTICA."
+          }
+        },
+        {
+          "__resolveType": "website/sections/Rendering/Lazy.tsx",
+          "section": {
+            "__resolveType": "site/sections/ServiceSpaDouble/ServiceSpaDouble.tsx",
+            "secondprice": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 80</span></strong></p>",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/f67aced1-8693-4644-a825-5e791a0af4df",
+            "desktop": {
+              "width": "410",
+              "height": "200"
+            },
+            "mobile": {
+              "width": "351",
+              "height": "140"
+            },
+            "title": "<p><span>Quick Massage</span></p>",
+            "firsttext": "<p><span>Uma combinação das técnicas Shiatsu e Anmá capaz de proporcionar relaxamento em poucos minutos, trazendo alívio imediato do estresse e tensões musculares.</span></p>",
+            "time": "<p><span style=\"color: rgb(255, 255, 255)\">15 mins.</span></p>",
+            "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 40</span></strong></p>",
+            "secondtime": "<p><span style=\"color: rgb(255, 255, 255)\">30 mins.</span></p>",
+            "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20QUICK%20MASSAGE."
+          }
+        },
+        {
+          "__resolveType": "website/sections/Rendering/Lazy.tsx",
+          "section": {
+            "__resolveType": "site/sections/ServiceMap/ServiceMap..tsx",
+            "firsttext": "<p><span>Utiliza pressão em pontos específicos dos pés para estimular as forças de cura do corpo, atuando na prevenção de disfunções do organismo.</span></p>",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/977b4744-87af-49cd-bb8b-781376773170",
+            "desktop": {
+              "width": "410",
+              "height": "200"
+            },
+            "mobile": {
+              "width": "351",
+              "height": "140"
+            },
+            "title": "<p><span>Reflexologia Podal</span></p>",
+            "services": [
+              {
+                "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 80</span></strong></p>",
+                "title": "Reflexologia Podal",
+                "time": "<p><span style=\"color: #ffffff\">30 mins.</span></p>",
+                "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20REFLEXOLOGIA%20PODAL."
+              },
+              {
+                "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 130</span></strong></p>",
+                "title": "Reflexologia Podal + Escalda-Pés",
+                "time": "<p><span style=\"color: #ffffff\">50 mins.</span></p>",
+                "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20infOl%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20REFLEXOLOGIA%20PODAL%20+%20ESCALDA-P%C3%89S.orma%C3%A7%C3%B5es%20sobre%20REFLEXOLOGIA%20PODAL."
+              }
+            ]
+          }
+        },
+        {
+          "__resolveType": "website/sections/Rendering/Lazy.tsx",
+          "section": {
+            "__resolveType": "site/sections/ServiceSpaTriple/ServiceSpaTriple.tsx",
+            "thirdprice": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 280</span></strong></p>",
+            "desktop": {
+              "width": "410",
+              "height": "200"
+            },
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/f11277e0-d4ab-4f23-8a6b-ef1b83dd99d5",
+            "mobile": {
+              "width": "351",
+              "height": "140"
+            },
+            "title": "<p><span>Shiatsu</span></p>",
+            "firsttext": "<p><span>Utiliza a pressão dos dedos e das palmas das mãos em pontos específicos do corpo para melhorar o funcionamento dos órgãos, fortalecer a imunidade e aliviar a tensão.</span></p>",
+            "time": "<p><span style=\"color: #ffffff\">30 mins.</span></p>",
+            "price": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 200</span></strong></p>",
+            "secondtime": "<p><span style=\"color: #ffffff\">60 mins.</span></p>",
+            "secondprice": "<p><strong><span style=\"color: rgb(255, 255, 255)\">R$ 250</span></strong></p>",
+            "thirdtime": "<p><span style=\"color: #ffffff\">90 mins.</span></p>",
+            "linkwhatsapp": "https://wa.me/5511980183865?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20SHIATSU."
+          }
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/WhatsappContacts/WhatsappContact.tsx"
+    },
+    {
+      "__resolveType": "Footer - 04"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

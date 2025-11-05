@@ -1,5 +1,13 @@
-User-agent: *
-Disallow: /
+# Disallow all crawlers access to certain pages. 
+ User-agent: * 
 
-User-agent: Googlebot
-Allow: /
+ Disallow: /img/* 
+ Disallow: /account/* 
+ Disallow: /login/* 
+ Disallow: /checkout/* 
+ Disallow: /busca/* 
+ Disallow: /quick-view/* 
+ Disallow: /espiar/* 
+ Noindex: /buscapagina/* 
+
+ Sitemap: https://loja.phytoterapica.com.br/sitemap.xml

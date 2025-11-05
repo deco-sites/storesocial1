@@ -1,0 +1,301 @@
+{
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/480780ca-71a7-42d5-9fc3-f9ad98b331b2",
+      "title": "Phytoterápica",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/cec0a7ef-9926-4525-ae5d-19f2fdfa988a",
+      "noIndexing": false,
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "titleTemplate": "%s ",
+      "descriptionTemplate": "%s "
+    },
+    {
+      "__resolveType": "site/sections/Header/Header.tsx",
+      "cart": {
+        "freeShippingObjectiveQuantity": 600
+      },
+      "logo": {
+        "alt": "Glamour logo by deco",
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/4b6ec59c-68e3-4bf5-8b33-9e9ac226e7ca",
+        "width": 280,
+        "height": 56
+      },
+      "show": true,
+      "cupom": {
+        "couponName": "CUPOM5",
+        "couponCampaignText": "-5% na primeira compra"
+      },
+      "total": 0,
+      "alerts": [
+        "Use this template to create your store at deco.cx"
+      ],
+      "coupon": {
+        "couponName": "CUPOM3000",
+        "couponCampaignText": "-20% na primeira compra"
+      },
+      "locale": "BR",
+      "target": 30000,
+      "topbar": {
+        "target": 1000
+      },
+      "buttons": {
+        "hideSearchButton": false
+      },
+      "currency": "BRL",
+      "fsTopBar": {
+        "show": false,
+        "locale": "BR",
+        "target": 30000,
+        "currency": "BRL",
+        "showOnMinicart": false
+      },
+      "navItems": {
+        "__resolveType": "navbar"
+      },
+      "products": [],
+      "ecButtons": {
+        "button1": {
+          "buttonIcon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/70fbff4b-9585-4160-946d-f03ecb7527aa",
+          "buttonLink": "/oleos-essenciais",
+          "buttonShow": true,
+          "buttonText": "Óleos Essenciais"
+        },
+        "button2": {
+          "buttonIcon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/c596cb68-58f5-496e-9ad4-720857443f74",
+          "buttonLink": "/oleos-vegetais",
+          "buttonShow": true,
+          "buttonText": "Óleos Vegetais"
+        },
+        "button3": {
+          "buttonIcon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/097b1cd6-55b7-435f-aad8-08c92d4ec869",
+          "buttonLink": "/cosmeticos-naturais",
+          "buttonShow": true,
+          "buttonText": "Cosméticos Naturais"
+        }
+      },
+      "searchbar": {
+        "name": "q",
+        "action": "/s",
+        "loader": {
+          "data": {
+            "count": 4,
+            "__resolveType": "vtex/loaders/intelligentSearch/suggestions.ts"
+          },
+          "__resolveType": "resolved"
+        },
+        "cardLayout": {
+          "basics": {
+            "oldPriceSize": "Small",
+            "contentAlignment": "Left"
+          },
+          "onMouseOver": {
+            "card": "None",
+            "image": "Change image",
+            "showCta": true
+          },
+          "elementsPositions": {
+            "skuSelector": "Top",
+            "favoriteIcon": "Top right"
+          }
+        },
+        "placeholder": "O que você procura?"
+      },
+      "couponName": "CUPOM20",
+      "infoTopbar": {
+        "text": "Devido ao feriado não abriremos quinta feira, dia 7 de setembro. Retornaremos nossas atividades normalmente na segunda-feira, dia 10 de setembro.",
+        "showTopBar": false
+      },
+      "mobileLogo": {
+        "alt": "Loja Phytoterápica",
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/5637f2f6-15ab-44dc-8df6-eb6b8f1ef469",
+        "width": 122,
+        "height": 94
+      },
+      "suggestions": {
+        "products": [],
+        "searches": []
+      },
+      "floatingLogo": {
+        "alt": "Phytoterápica",
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/3063b547-e2cc-4ec2-a05b-ef3ce7dd9478",
+        "width": 69,
+        "height": 53
+      },
+      "logoPosition": "left",
+      "couponCampaignText": "-20% de primeira compra"
+    },
+    {
+      "dots": true,
+      "arrows": true,
+      "images": [
+        {
+          "alt": "Aniversário Phytoterápica",
+          "link": "/cosmeticos-naturais?utm_source=VEGANO15&utm_campaign=VEGANO15",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/phytoterapica/474c0568-f02a-41d9-8ef5-95aa7c86c384/Criativo-1-(cosmeticos-veganos)-767x767.png",
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/phytoterapica/060c7b4d-e328-4573-9a96-59e59f161de8/Criativo-1-(cosmeticos-veganos)-1920x538.png"
+        },
+        {
+          "alt": "Mês das Crianças",
+          "link": "/mes-das-criancas",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/phytoterapica/2d6a097a-f477-40ac-897b-47ac1406721b/Banner-LV-Mobile-Mes-Crianca.jpg",
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/phytoterapica/de65189f-5447-4a43-9b74-eed9fd49d3e9/BANNER-LV-Desktop-Mes-Crianca.jpg"
+        },
+        {
+          "alt": "Lançamento",
+          "link": "/211?map=productClusterIds&order",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/43037ae6-a901-442a-b477-b43c67488c1e",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/23d36ba4-d07b-4c14-9f7f-634488fd321a"
+        },
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/da7afad3-d5af-4b65-82c1-e9d6c929b6eb",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/01236682-981b-4b29-86a6-e10a1ea590b1",
+          "link": "#",
+          "alt": "PhytoSpa"
+        },
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/92fb64de-3c06-4ed6-95f8-d4950ccfbb19",
+          "alt": "Seja um Consultor(a)",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/15db90da-46bd-4ca4-a5a9-c1676754383a",
+          "link": "https://bit.ly/3SwXa4D"
+        }
+      ],
+      "preload": true,
+      "__resolveType": "site/sections/Images/Carousel.tsx",
+      "interval": 5
+    },
+    {
+      "__resolveType": "Barra de Benefícios"
+    },
+    {
+      "dots": true,
+      "title": "Destaques",
+      "layout": {
+        "showArrows": true
+      },
+      "products": {
+        "props": {
+          "sort": "",
+          "count": 6,
+          "collection": "140"
+        },
+        "crossSelling": "similars",
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+      },
+      "cardLayout": {
+        "layout": {
+          "hide": {
+            "allPrices": false,
+            "favoriteIcon": true,
+            "installments": false,
+            "productDescription": true
+          },
+          "basics": {
+            "oldPriceSize": "Normal",
+            "contentAlignment": "Left"
+          },
+          "onMouseOver": {
+            "card": "None",
+            "image": "Change image",
+            "showCta": true,
+            "showCardShadow": false,
+            "showSkuSelector": false,
+            "showFavoriteIcon": false
+          },
+          "elementsPositions": {
+            "skuSelector": "Bottom",
+            "favoriteIcon": "Top right"
+          }
+        },
+        "__resolveType": "site/loaders/Layouts/ProductCard.tsx"
+      },
+      "__resolveType": "site/sections/Product/ProductShelf.tsx"
+    },
+    {
+      "bannerMiddle": {
+        "alt": "Trio Óleos Essenciais",
+        "link": "/kit-oleos-essenciais-basicos/p",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/61add48d-9038-4929-95b8-0f7530772f47",
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/12c8fc6c-d15b-421a-a989-13a32d338885"
+      },
+      "__resolveType": "site/sections/Images/BannerMiddle.tsx"
+    },
+    {
+      "__resolveType": "Destaque do produto único"
+    },
+    {
+      "banners": [
+        {
+          "href": "https://loja.phytoterapica.com.br/sinergias?utm_source=loja_virtual&utm_medium=banner_lv&utm_campaign=banner_categoria_sinergias",
+          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/e04a7ec2-0fab-460e-9cc4-d8d4788ddd30",
+          "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/5fdb6709-43a8-4d47-bd37-ffca362fef3a",
+          "alt": "Sinergias"
+        },
+        {
+          "alt": "Cosméticos Naturais",
+          "href": "https://loja.phytoterapica.com.br/cosmeticos-naturais?utm_source=loja_virtual&utm_medium=banner_lv&utm_campaign=banner_categoria_cosmeticos-naturais",
+          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/23582d37-abf6-472b-a78e-f5bc125aaf61",
+          "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/ccdd36cf-f0aa-412e-93ba-4500ca6e6539"
+        }
+      ],
+      "borderRadius": {
+        "mobile": "none",
+        "desktop": "none"
+      },
+      "itemsPerLine": {
+        "mobile": 1,
+        "desktop": 2
+      },
+      "__resolveType": "site/sections/Images/BannerGrid.tsx"
+    },
+    {
+      "dots": true,
+      "title": "Lançamentos",
+      "layout": {
+        "showArrows": true
+      },
+      "products": {
+        "props": {
+          "sort": "",
+          "count": 6,
+          "collection": "139"
+        },
+        "crossSelling": "similars",
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+      },
+      "cardLayout": {
+        "layout": {
+          "hide": {
+            "allPrices": false,
+            "favoriteIcon": true,
+            "installments": false,
+            "productDescription": true
+          },
+          "basics": {
+            "oldPriceSize": "Normal",
+            "contentAlignment": "Left"
+          },
+          "onMouseOver": {
+            "card": "None",
+            "image": "Change image",
+            "showCta": true,
+            "showCardShadow": false,
+            "showSkuSelector": false,
+            "showFavoriteIcon": false
+          },
+          "elementsPositions": {
+            "skuSelector": "Bottom",
+            "favoriteIcon": "Top right"
+          }
+        },
+        "__resolveType": "site/loaders/Layouts/ProductCard.tsx"
+      },
+      "__resolveType": "site/sections/Product/ProductShelf.tsx"
+    },
+    {
+      "__resolveType": "Footer - 04"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

@@ -1,8 +1,1 @@
-{
-  "data": {
-    "__resolveType": "shopify/loaders/ProductListingPage.ts",
-    "count": 12
-  },
-  "extensions": [],
-  "__resolveType": "commerce/loaders/product/extensions/listingPage.ts"
-}
+{"data":{"__resolveType":"vtex/loaders/intelligentSearch/productListingPage.ts","sort":"price:desc","fuzzy":"disabled","selectedFacets":[],"count":16},"extensions":[],"__resolveType":"commerce/loaders/product/extensions/listingPage.ts"}

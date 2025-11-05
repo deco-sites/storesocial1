@@ -1,0 +1,1 @@
+export { default } from "$store/components/header/Custom/InformativeTopBar.tsx";

@@ -1,51 +1,422 @@
 {
   "items": [
     {
-      "@type": "SiteNavigationElement",
-      "url": "/deals",
-      "name": "Deals",
+      "url": "/oleos-essenciais",
+      "name": "Óleos Essenciais",
+      "image": [],
       "children": [
         {
-          "image": [],
-          "children": [],
-          "name": "Hello"
-        },
+          "url": "/oleos-essenciais",
+          "name": "Óleos Essenciais",
+          "children": [
+            {
+              "url": "/oleos-essenciais/aerossois",
+              "name": "Aerossóis"
+            },
+            {
+              "url": "/oleos-essenciais/organicos",
+              "name": "Orgânicos"
+            },
+            {
+              "url": "/kit/com-oleos-essenciais",
+              "name": "Kit com Óleos Essenciais"
+            },
+            {
+              "url": "/oleos-essenciais",
+              "name": "Ver Todos",
+              "identifier": "ver-todos"
+            }
+          ]
+        }
+      ],
+      "identifier": "/oleo-essencial-de-lavanda-bulgaria-10ml/p",
+      "additionalType": "menu"
+    },
+    {
+      "url": "/oleos-vegetais",
+      "name": "Óleos Vegetais",
+      "image": [],
+      "children": [
         {
-          "image": [],
-          "children": [],
-          "name": "World"
+          "url": "/oleos-vegetais",
+          "name": "Óleos Vegetais",
+          "children": [
+            {
+              "url": "/oleos-vegetais/oleos-brasileiros",
+              "name": "Óleos Brasileiros"
+            },
+            {
+              "url": "/oleos-vegetais/organicos",
+              "name": "Orgânicos"
+            },
+            {
+              "url": "/oleos-vegetais/extratos-oleosos",
+              "name": "Extratos Oleosos"
+            },
+            {
+              "url": "/kit/com-oleos-vegetais",
+              "name": "Kits com Óleos Vegetais"
+            },
+            {
+              "url": "/oleos-vegetais",
+              "name": "Ver Todos",
+              "identifier": "ver-todos"
+            }
+          ]
+        }
+      ],
+      "identifier": "https://bit.ly/3IXoip8"
+    },
+    {
+      "url": "/sinergias",
+      "name": "Sinergias",
+      "image": [],
+      "children": [
+        {
+          "url": "/sinergias",
+          "name": "Sinergias",
+          "children": [
+            {
+              "url": "/sinergias/compostos-essenciais",
+              "name": "Compostos Essenciais"
+            },
+            {
+              "url": "/sinergias/para-massagem",
+              "name": "Para Massagem"
+            },
+            {
+              "url": "/sinergias/roll-ons",
+              "name": "Roll-ons"
+            },
+            {
+              "url": "/sinergias",
+              "name": "Ver Todos",
+              "identifier": "ver-todos"
+            }
+          ]
         }
       ]
     },
     {
-      "@type": "SiteNavigationElement",
-      "url": "/valentines-day",
-      "name": "Valentine's Day",
-      "children": []
+      "url": "/cosmeticos-naturais",
+      "name": "Cosméticos Naturais",
+      "image": [],
+      "children": [
+        {
+          "url": "/cosmeticos-naturais",
+          "name": "Cosméticos Naturais",
+          "image": [],
+          "children": [
+            {
+              "url": "/cosmeticos-naturais/aloe-vera",
+              "name": "Aloe Vera",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/cosmeticos-naturais/argilas",
+              "name": "Argilas",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/cosmeticos-naturais/hidratantes",
+              "name": "Hidratantes",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/cosmeticos-naturais/hidrolatos",
+              "name": "Hidrolatos",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/cosmeticos-naturais/linha-homem",
+              "name": "Linha Homem",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/cosmeticos-naturais/seivas",
+              "name": "Seivas",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/cosmeticos-naturais/serum",
+              "name": "Serum",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/kit/com-argilas",
+              "name": "Kit com Argilas",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/kit/com-cosmeticos-naturais",
+              "name": "Kit com Cosméticos Naturais",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/cosmeticos-naturais",
+              "name": "Ver Todos",
+              "image": [],
+              "children": [],
+              "identifier": "ver-todos"
+            }
+          ]
+        }
+      ],
+      "identifier": "Cosméticos Naturais"
     },
     {
-      "@type": "SiteNavigationElement",
-      "url": "/women",
-      "name": "Women",
-      "children": []
+      "url": "/higiene-pessoal",
+      "name": "Higiene Pessoal",
+      "image": [],
+      "children": [
+        {
+          "url": "/higiene-pessoal",
+          "name": "Higiene Pessoal",
+          "image": [],
+          "children": [
+            {
+              "url": "/higiene-pessoal/cremes-dentais",
+              "name": "Cremes Dentais",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/higiene-pessoal/enxaguantes-bucais",
+              "name": "Enxaguantes Bucais",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/higiene-pessoal/sabonetes",
+              "name": "Sabonetes",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/kit/com-higiene-pessoal",
+              "name": "Kit com Higiene Pessoal",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/higiene-pessoal",
+              "name": "Ver Todos",
+              "image": [],
+              "children": [],
+              "identifier": "ver-todos"
+            }
+          ]
+        }
+      ],
+      "identifier": "Higiene Pessoal"
     },
     {
-      "@type": "SiteNavigationElement",
-      "url": "/men",
-      "name": "Men",
-      "children": []
+      "url": "/aromatizadores",
+      "name": "Aromatizadores",
+      "image": [],
+      "children": [
+        {
+          "url": "/aromatizadores",
+          "name": "Aromatizadores",
+          "image": [],
+          "children": [
+            {
+              "url": "/aromatizadores/pessoais",
+              "name": "Pessoais",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/aromatizadores/ultrassonicos",
+              "name": "Ultrassônicos",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/kit/com-aromatizadores",
+              "name": "Kit com Aromatizadores",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/aromatizadores",
+              "name": "Ver Todos",
+              "image": [],
+              "children": [],
+              "identifier": "ver-todos"
+            }
+          ]
+        }
+      ],
+      "identifier": "Aromatizadores"
     },
     {
-      "@type": "SiteNavigationElement",
-      "url": "/clearance",
-      "name": "Clearance",
-      "children": []
+      "url": "/kit",
+      "name": "Kits",
+      "image": [],
+      "children": [
+        {
+          "url": "/kit",
+          "name": "Kits",
+          "image": [],
+          "children": [
+            {
+              "url": "/kit/com-oleos-essenciais",
+              "name": "Com Óleos Essenciais",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/kit/com-oleos-vegetais",
+              "name": "Com Óleos Vegetais",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/kit/com-argilas",
+              "name": "Com Argilas",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/kit/com-cosmeticos-naturais",
+              "name": "Com Cosméticos Naturais",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/kit/com-higiene-pessoal",
+              "name": "Com Higiene Pessoal",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/kit/com-aromatizadores",
+              "name": "Com Aromatizadores",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/kit/kit-linha-homem",
+              "name": "Linha Homem",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/kit",
+              "name": "Ver Todos",
+              "image": [],
+              "children": [],
+              "identifier": "ver-todos"
+            }
+          ]
+        }
+      ],
+      "identifier": "Kits"
     },
     {
-      "@type": "SiteNavigationElement",
-      "url": "/activities",
-      "name": "Activities",
-      "children": []
+      "url": "/acessorios",
+      "name": "Acessórios",
+      "image": [],
+      "children": [
+        {
+          "url": "/acessorios",
+          "name": "Acessórios",
+          "image": [],
+          "children": [
+            {
+              "url": "/acessorios/marchetaria",
+              "name": "Marchetaria",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/acessorios/necessaire",
+              "name": "Nécessaire",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/acessorios/outros",
+              "name": "Outros",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/acessorios/sacolas",
+              "name": "Sacola",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/acessorios",
+              "name": "Ver Todos",
+              "image": [],
+              "children": [],
+              "identifier": "ver-todos"
+            }
+          ]
+        }
+      ],
+      "identifier": "Acessórios"
+    },
+    {
+      "name": "Ofertas",
+      "image": [],
+      "children": [
+        {
+          "image": [],
+          "children": [
+            {
+              "image": [],
+              "children": [],
+              "name": "Produtos em Promoção",
+              "url": "/ofertas",
+              "identifier": "hide-mobile"
+            }
+          ],
+          "name": "Produtos em Promoção",
+          "url": "/ofertas"
+        }
+      ],
+      "identifier": "Ofertas",
+      "url": "/ofertas"
+    },
+    {
+      "name": "Consultor(a)",
+      "image": [],
+      "children": [
+        {
+          "url": "http://bit.ly/3UVEuNt",
+          "name": "Já sou Consultor(a)",
+          "image": [],
+          "children": [
+            {
+              "url": "https://bit.ly/3SwXa4D",
+              "name": "Faça seu Cadastro",
+              "image": [],
+              "children": []
+            },
+            {
+              "image": [],
+              "children": [],
+              "url": "http://bit.ly/3UVEuNt",
+              "name": "Já sou Consultor(a)",
+              "identifier": "hide-mobile"
+            }
+          ]
+        }
+      ],
+      "identifier": "Consultor(a)"
     }
   ],
   "__resolveType": "commerce/loaders/navbar.ts"

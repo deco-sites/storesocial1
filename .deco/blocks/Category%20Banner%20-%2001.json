@@ -2,21 +2,372 @@
   "banners": [
     {
       "image": {
-        "mobile": "https://assets.decocache.com/storefront/b79aa236-d06d-481f-adf7-2f1076ea6210/1742560270734-91102b71-4832-486a-b683-5f7b06f649af",
-        "desktop": "https://assets.decocache.com/storefront/ca7dd51a-e5ae-491a-b72a-08c07aa4a70d/1742560272355-ec597b6a-dcf1-48ca-a99d-95b3c6304f96"
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/0928033a-5edd-449d-abbe-7f1d427624fe",
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/d01a648f-f82a-44ed-a759-cf53f85cf024"
       },
-      "title": "Woman",
-      "matcher": "/feminino/*",
-      "subtitle": "As"
+      "title": "Óleos Essenciais",
+      "matcher": "/oleos-essenciais",
+      "subtitle": "Ideais para uso na aromaterapia, cuidados com a pele e cabelos, os óleos essenciais são puros, naturais e extraídos da parte aromática das plantas. Melhore sua qualidade de vida e mantenha corpo e mente equilíbrio."
     },
     {
       "image": {
-        "mobile": "https://assets.decocache.com/storefront/b79aa236-d06d-481f-adf7-2f1076ea6210/1742560270734-91102b71-4832-486a-b683-5f7b06f649af",
-        "desktop": "https://assets.decocache.com/storefront/ca7dd51a-e5ae-491a-b72a-08c07aa4a70d/1742560272355-ec597b6a-dcf1-48ca-a99d-95b3c6304f96"
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/85b2b18e-309f-4652-b35e-fb14fa952775",
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/a42da10e-eefe-437d-ab99-b7b04ab1e57b"
       },
-      "title": "Woman",
-      "matcher": "/*",
-      "subtitle": "As"
+      "title": "Aerossóis",
+      "matcher": "/oleos-essenciais/aerossois"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/a42da10e-eefe-437d-ab99-b7b04ab1e57b",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/85b2b18e-309f-4652-b35e-fb14fa952775"
+      },
+      "matcher": "/oleos-essenciais/organicos",
+      "title": "Orgânicos"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/c2d20f94-6510-4cee-a91a-4e9c4f703b1c",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/0e9f3e75-7146-421c-937a-bf0e91b4dce5"
+      },
+      "matcher": "/oleos-vegetais",
+      "title": "Óleos Vegetais",
+      "subtitle": "Extraídos de grãos, sementes e polpas de frutos ricos em ômega 3, 6 e 9 e vitaminas A, D e E, nossos óleos vegetais são especialmente indicados para o cuidado com a pele, cabelos ou para desfrutar de um momento de bem-estar em massagens. Explore!"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/c2d20f94-6510-4cee-a91a-4e9c4f703b1c",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/0e9f3e75-7146-421c-937a-bf0e91b4dce5"
+      },
+      "matcher": "/oleos-vegetais/organicos",
+      "title": "Orgânicos"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/c2d20f94-6510-4cee-a91a-4e9c4f703b1c",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/0e9f3e75-7146-421c-937a-bf0e91b4dce5"
+      },
+      "matcher": "/oleos-vegetais/extratos-oleosos",
+      "title": "Extratos Oleosos"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/e4e1d84d-d412-4ed0-b169-ab6271cc87ca",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/754790aa-4fc4-4ae6-8052-8560bda884af"
+      },
+      "matcher": "/sinergias",
+      "title": "Sinergias",
+      "subtitle": "Nossos compostos foram criados para trazer equilíbrio, harmonia e praticidade ao seu dia a dia. Com uma combinação de óleos essenciais e ingredientes naturais, as sinergias potencializam os princípios ativos de cada óleo, sendo ideais para a aromaterapia e cuidados pessoais. Escolha a sua!"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/e4e1d84d-d412-4ed0-b169-ab6271cc87ca",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/754790aa-4fc4-4ae6-8052-8560bda884af"
+      },
+      "matcher": "/sinergias/compostos-essenciais",
+      "title": "Compostos Essenciais"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/e4e1d84d-d412-4ed0-b169-ab6271cc87ca",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/754790aa-4fc4-4ae6-8052-8560bda884af"
+      },
+      "matcher": "/sinergias/para-massagem",
+      "title": "Para Massagem"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/e4e1d84d-d412-4ed0-b169-ab6271cc87ca",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/754790aa-4fc4-4ae6-8052-8560bda884af"
+      },
+      "matcher": "/sinergias/roll-ons",
+      "title": "Roll-ons"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/3d516863-cd9a-467f-b7df-ee45d15ef98f",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/b968e609-e140-434b-a287-0229cd5ccb14"
+      },
+      "matcher": "/cosmeticos-naturais",
+      "title": "Cosméticos Naturais",
+      "subtitle": "Conheça nossa linha de cosméticos naturais clean beauty livres de petroquímicos, parabenos, sulfatos e essências sintéticas. Feitos com óleos essenciais e vegetais e ingredientes sustentáveis para uma rotina segura de cuidados com pele e cabelos, nossos produtos promovem uma beleza saudável."
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/e4e1d84d-d412-4ed0-b169-ab6271cc87ca",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/754790aa-4fc4-4ae6-8052-8560bda884af"
+      },
+      "matcher": "/cosmeticos-naturais/aloe-vera",
+      "title": "Aloe Vera"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/e4e1d84d-d412-4ed0-b169-ab6271cc87ca",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/754790aa-4fc4-4ae6-8052-8560bda884af"
+      },
+      "matcher": "/cosmeticos-naturais/argilas",
+      "title": "Argilas"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/e4e1d84d-d412-4ed0-b169-ab6271cc87ca",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/754790aa-4fc4-4ae6-8052-8560bda884af"
+      },
+      "matcher": "/cosmeticos-naturais/desodorantes",
+      "title": "Desodorantes"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/e4e1d84d-d412-4ed0-b169-ab6271cc87ca",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/754790aa-4fc4-4ae6-8052-8560bda884af"
+      },
+      "matcher": "/cosmeticos-naturais/hidratantes",
+      "title": "Hidratantes"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/e4e1d84d-d412-4ed0-b169-ab6271cc87ca",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/754790aa-4fc4-4ae6-8052-8560bda884af"
+      },
+      "matcher": "/cosmeticos-naturais/hidrolatos",
+      "title": "Hidrolatos"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/e4e1d84d-d412-4ed0-b169-ab6271cc87ca",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/754790aa-4fc4-4ae6-8052-8560bda884af"
+      },
+      "matcher": "/cosmeticos-naturais/linha-homem",
+      "title": "Linha Homem"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/e4e1d84d-d412-4ed0-b169-ab6271cc87ca",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/754790aa-4fc4-4ae6-8052-8560bda884af"
+      },
+      "matcher": "/cosmeticos-naturais/seivas",
+      "title": "Seivas"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/e4e1d84d-d412-4ed0-b169-ab6271cc87ca",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/754790aa-4fc4-4ae6-8052-8560bda884af"
+      },
+      "matcher": "/cosmeticos-naturais/serum",
+      "title": "Sérum"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/c2431370-b111-495a-a8dd-7c914d1ee597",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/9b837210-106c-4aef-bbaa-067a1e0016a6"
+      },
+      "matcher": "/higiene-pessoal",
+      "title": "Higiene Pessoal",
+      "subtitle": "Sabonetes, shampoos, desodorantes e muito mais! Encontre produtos de higiene pessoal formulados com ingredientes naturais e veganos, enriquecidos com nossos óleos vegetais e essenciais. Cuidado que promove limpeza eficaz e bem-estar diário em conexão com a natureza."
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/c2431370-b111-495a-a8dd-7c914d1ee597",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/9b837210-106c-4aef-bbaa-067a1e0016a6"
+      },
+      "matcher": "/higiene-pessoal/cremes-dentais",
+      "title": "Cremes Dentais"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/c2431370-b111-495a-a8dd-7c914d1ee597",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/9b837210-106c-4aef-bbaa-067a1e0016a6"
+      },
+      "matcher": "/higiene-pessoal/condicionador-em--barra",
+      "title": "Condicionador em barra"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/c2431370-b111-495a-a8dd-7c914d1ee597",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/9b837210-106c-4aef-bbaa-067a1e0016a6"
+      },
+      "matcher": "/higiene-pessoal/shampoo-em--barra",
+      "title": "Shampoo em barra"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/c2431370-b111-495a-a8dd-7c914d1ee597",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/9b837210-106c-4aef-bbaa-067a1e0016a6"
+      },
+      "matcher": "/higiene-pessoal/enxaguantes-bucais",
+      "title": "Enxaguantes Bucais"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/c2431370-b111-495a-a8dd-7c914d1ee597",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/9b837210-106c-4aef-bbaa-067a1e0016a6"
+      },
+      "matcher": "/higiene-pessoal/sabonetes",
+      "title": "Sabonetes"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/1b6de20b-ddcf-44e8-ab94-4140ae76000e",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/a645455d-90eb-4363-89d5-814f474c7647"
+      },
+      "matcher": "/aromatizadores",
+      "title": "Aromatizadores",
+      "subtitle": "Transforme seu espaço e sua rotina com a nossa linha de aromatizadores. Garantem uma experiência segura com os óleos essenciais e proporcionam bem-estar e harmonia entre corpo e mente. Crie ambientes agradáveis e aconchegantes em casa ou no escritório!"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/1b6de20b-ddcf-44e8-ab94-4140ae76000e",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/a645455d-90eb-4363-89d5-814f474c7647"
+      },
+      "matcher": "/aromatizadores/pessoais",
+      "title": "Pessoais"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/1b6de20b-ddcf-44e8-ab94-4140ae76000e",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/a645455d-90eb-4363-89d5-814f474c7647"
+      },
+      "matcher": "/aromatizadores/ultrassonicos",
+      "title": "Ultrassônicos"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/eeb9b09e-21be-48ca-ab42-a7b081d15592",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/4c189288-01dd-46b9-862a-b1d3cacb941d"
+      },
+      "matcher": "/acessorios",
+      "title": "Acessórios",
+      "subtitle": "Explore nossa linha de acessórios. Elaborados para oferecer praticidade, elegância e organização. Nossos acessórios para aromaterapia são funcionais e tornam a sua rotina de cuidados ainda mais prazerosa!"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/f5d3d80f-7afb-4354-abc4-fb32cee52652",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/9cb0a8bb-aaab-4d5c-885c-72da2859a31b"
+      },
+      "matcher": "/acessorios/marchetaria",
+      "title": "Marchetaria"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/f5d3d80f-7afb-4354-abc4-fb32cee52652",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/9cb0a8bb-aaab-4d5c-885c-72da2859a31b"
+      },
+      "matcher": "/acessorios/necessaire",
+      "title": "Nécessaire"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/f5d3d80f-7afb-4354-abc4-fb32cee52652",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/9cb0a8bb-aaab-4d5c-885c-72da2859a31b"
+      },
+      "matcher": "/acessorios/outros",
+      "title": "Outros"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/f5d3d80f-7afb-4354-abc4-fb32cee52652",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/9cb0a8bb-aaab-4d5c-885c-72da2859a31b"
+      },
+      "matcher": "/acessorios/sacolas",
+      "title": "Sacolas"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/26d7c959-ff87-4272-a406-0ef353d5a698",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/6a57d8b6-ae57-4438-87da-983f53894773"
+      },
+      "matcher": "/kit",
+      "title": "Kit",
+      "subtitle": "Conheça nossas sugestões de kits para uso pessoal ou para presente sustentável. Nossos kits são compostos por produtos veganos e naturais de alta qualidade que são complementares e combinados para o autocuidado, beleza e bem-estar."
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/a42da10e-eefe-437d-ab99-b7b04ab1e57b",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/85b2b18e-309f-4652-b35e-fb14fa952775"
+      },
+      "matcher": "/kit/com-oleos-essenciais",
+      "title": "Com Óleos Essenciais"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/c2d20f94-6510-4cee-a91a-4e9c4f703b1c",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/0e9f3e75-7146-421c-937a-bf0e91b4dce5"
+      },
+      "matcher": "/kit/com-oleos-vegetais",
+      "title": "Com Óleos Vegetais"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/e4e1d84d-d412-4ed0-b169-ab6271cc87ca",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/754790aa-4fc4-4ae6-8052-8560bda884af"
+      },
+      "matcher": "/kit/com-argilas",
+      "title": "Com Argilas"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/f5d3d80f-7afb-4354-abc4-fb32cee52652",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/9cb0a8bb-aaab-4d5c-885c-72da2859a31b"
+      },
+      "matcher": "/kit/com-cosmeticos-naturais",
+      "title": "Com Cosméticos Naturais"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/c2431370-b111-495a-a8dd-7c914d1ee597",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/9b837210-106c-4aef-bbaa-067a1e0016a6"
+      },
+      "matcher": "/kit/com-higiene-pessoal",
+      "title": "Com Higiene Pessoal"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/1b6de20b-ddcf-44e8-ab94-4140ae76000e",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/a645455d-90eb-4363-89d5-814f474c7647"
+      },
+      "matcher": "/kit/com-aromatizadores",
+      "title": "Com Aromatizadores"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/f5d3d80f-7afb-4354-abc4-fb32cee52652",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/9cb0a8bb-aaab-4d5c-885c-72da2859a31b"
+      },
+      "matcher": "/kit/kit-linha-homem",
+      "title": "Kit Linha Homem"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/f5d3d80f-7afb-4354-abc4-fb32cee52652",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/9cb0a8bb-aaab-4d5c-885c-72da2859a31b"
+      },
+      "matcher": "/oleos-vegetais/oleos-brasileiros",
+      "title": "Óleos Brasileiros"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/82d57af6-9eb7-49de-991d-e9ff179886ad",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/53c378a1-18f4-4d28-93ca-cb0bb51f59c6"
+      },
+      "matcher": "/dia-do-psicologo",
+      "title": "Dia do Psicólogo"
+    },
+    {
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/25c48116-773a-4d08-90db-f26ee7dc3fc4",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4505/ad141c3d-3fa9-48f8-a85d-4bdfbd69ceee"
+      },
+      "matcher": "/ofertas",
+      "title": "Ofertas",
+      "subtitle": "Ofertas exclusivas em óleos essenciais, óleos vegetais, cosméticos naturais e muito mais para o seu autocuidado. São os produtos Phytoterápica com a qualidade que você já conhece com descontos incríveis. Confira as nossas condições especiais de pagamento e parcelamento."
+    },
+    {
+      "image": {
+        "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/phytoterapica/41f59a66-632d-4f8a-ab15-d58b6ea73de2/Banner-Desktop-1000x222-V2.jpg",
+        "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/phytoterapica/b12489f7-3b40-4013-8666-4bd7df0af88a/Banner-Mobile-372x239-V2-(1).jpg"
+      },
+      "matcher": "/semana-do-cliente",
+      "title": "Semana do Cliente"
     }
   ],
   "__resolveType": "site/sections/Category/CategoryBanner.tsx"

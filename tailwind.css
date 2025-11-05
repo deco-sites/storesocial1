@@ -9,6 +9,10 @@
     font-family: var(--font-family);
   }
 
+  mark {
+    @apply bg-accent text-accent-content;
+  }
+
   /** Remove default styles from input[type=number] */
   input[type=number]::-webkit-inner-spin-button,
   input[type=number]::-webkit-outer-spin-button {
@@ -24,6 +28,19 @@
   }
 }
 
+@layer components {
+  .features {
+    @apply flex items-center justify-center gap-6 flex-wrap;
+    @apply relative max-w-[1280px] mx-auto;
+  }
+
+  .feature-card {
+    @apply w-[380px] max-w-[380px] lg:h-[380px] bg-[#F4F4F4] rounded-3xl;
+    @apply border-l border-transparent duration-200 whitespace-pre-line text-center;
+    @apply flex flex-col items-center justify-start gap-8 py-10 px-8 lg:px-12;
+  }
+}
+
 .group:disabled .group-disabled\:animate-progress {
   animation: progress-frame ease normal
 }
@@ -36,4 +53,402 @@
   to {
     --dot-progress: 100%
   }
+}
+
+/* SCROLLBAR STYLES */
+
+*::-webkit-scrollbar {
+  width: 7px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #3399FF;
+  border-radius: 10px;
+}
+
+/* PLACEHOLDER SEARCH */
+
+input#search-input::placeholder {
+  color: #666666;
+  font-family: "Arial", sans-serif;
+  font-size: 13px;
+  position: relative;
+  top: -2px;
+  letter-spacing: .05em;
+}
+
+/* OVERWRITE PROGRESSBAR CSS */
+
+.progress {
+  border-radius: 0;
+}
+
+.progress::-moz-progress-bar {
+  border-radius: 0;
+}
+
+.progress::-webkit-progress-bar {
+  border-radius: 0;
+}
+
+.progress::-webkit-progress-value {
+  border-radius: 0;
+  transition: .3s all ease;
+  background-image: repeating-linear-gradient(90deg, #3399FF -1%, #3399FF 10%, #3399FF 10%, #3399FF 90%) !important;
+}
+
+/* TRANSITION HEIGHT HEADER */
+
+.floating-header,
+.floating-header-desktop {
+  transition: .3s all ease;
+}
+
+.overcontent {
+  z-index: 60;
+}
+
+/* BLUR */
+
+.drawer-toggle:checked~.drawer-side>.drawer-overlay {
+  backdrop-filter: blur(5px);
+}
+
+/* OVERWRITE FSBAR MINICART FONT-SIZE */
+
+.drawer-side .header-progress span {
+  font-size: 12px;
+  letter-spacing: .05em;
+  font-family: "Arial", sans-serif;
+}
+
+.drawer-side {
+  z-index: 100;
+}
+
+/* OVERWRITE MODAL BACKDROP */
+
+.modal:not(dialog:not(.modal-open)),
+.modal::backdrop {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.mobile-header-open {
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+  transition: .3s all ease;
+}
+
+.mobile-header-open .search-bar-container {
+  transition: .3s all ease;
+  top: 10px;
+}
+
+/* OVERWRITE MOBILE COLLAPSE ARROW */
+
+.collapse-arrow>.collapse-title:after {
+  content: "+";
+  position: absolute;
+  display: block;
+  height: 0.5rem;
+  width: 0.5rem;
+  transform: none;
+  top: 0rem;
+  inset-inline-end: 1.4rem;
+  box-shadow: none;
+  pointer-events: none;
+  font-size: 24px;
+}
+
+.collapse-arrow:not(.collapse-close)>input[type="checkbox"]:checked~.collapse-title:after {
+  content: "-";
+  margin-left: 4px;
+  transform: none;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.collapse-arrow:not(.collapse-close)>input[type="checkbox"]:checked~.collapse-title {
+  font-weight: 700;
+  color: #666666;
+}
+
+/* PDP TABS */
+
+.tab-buttons .active {
+  border-color: #666666;
+  border-bottom: 0;
+  z-index: 11;
+}
+
+.tab-buttons .active button {
+  color: #333333;
+}
+
+
+/* CSS OVERRIDE FILTER RANGE PRICE */
+
+input[type="range"] {
+  -webkit-appearance: none;
+  outline: none !important;
+  background: transparent;
+  background-image: linear-gradient(to bottom, transparent 0%, transparent 30%, #666666, silver 60%, transparent 60%, transparent 100%);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  background: #666666;
+  cursor: pointer;
+  border: 1px solid #666666;
+  border-radius: 100%;
+}
+
+/* OVERRIDE OPEN FILTER */
+
+.plus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &::after {
+    content: "+";
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+  }
+}
+
+.less {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &::after {
+    content: "-";
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+  }
+}
+
+.hide {
+  width: 0px;
+  min-width: 0px;
+}
+
+/* OVERRIDE FILTER CHECKBOX */
+.checkbox {
+  flex-shrink: 0;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: #CCCCCC;
+}
+
+.checkbox:checked,
+.checkbox[checked="true"],
+.checkbox[aria-checked="true"] {
+  background-repeat: no-repeat;
+  animation: none;
+  background-color: #666666;
+  background-image: initial;
+  padding: 3px;
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+h2.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: pre-wrap;
+  max-height: 45px;
+}
+
+.icon-wrapper svg,
+.button-clear-filter svg {
+  stroke-width: 2;
+}
+
+/* OVERRIDE LINEHEIGHT FROM PDP. DO NOT REMOVE IMPORTANT! */
+
+body {
+  line-height: inherit !important;
+  max-width: 1920px;
+  margin: auto !important;
+}
+
+/* BACKDROP MENU DESKTOP */
+
+.phyto-menu-drop::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+  position: fixed;
+  width: 100%;
+  height: 655px;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+
+/* REMOVE ARROWS ALL BROWSERS */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* CENTER SOCIAL ICONS */
+.Footer-social-link-1-cy svg {
+  max-width: 15px;
+  max-height: 14px;
+}
+
+.Footer-social-link-4-cy svg {
+  max-width: 17px;
+  max-height: 16px;
+}
+
+.Footer-social-link-3-cy svg {
+  max-width: 13px;
+  max-height: 14px;
+}
+
+/* OVERRIDE CLUSTER FROM CATEGORY */
+
+@media (max-width: 430px) and (min-width: 391px) {
+  .product-grid .flag-product-cluster {
+    left: -36px;
+    font-size: 10px;
+  }
+}
+
+/* minicart cart item */
+
+.product-name-minicart {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  max-width: 145px;
+}
+
+
+/* institucional */
+.text-institutional {
+  h1 {
+    color: #666666;
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 44px;
+  }
+
+  @media (max-width: 638px) {
+    h1 {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+
+  h2 {
+    color: #666666;
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 48px;
+    margin-bottom: 28px;
+  }
+
+  @media (max-width: 638px) {
+    h2 {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+
+  p {
+    margin-bottom: 15px;
+  }
+
+
+  a {
+    color: #999999;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+
+  .text-hidden,
+  .text-complete {
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+    -webkit-box-orient: vertical;
+  }
+
+  .text-hidden {
+    -webkit-line-clamp: 1;
+  }
+
+}
+.menu-wrapper a.spa-area-link[data-current="true"] span {
+  color: #DCA15A;
+}
+
+.menu-wrapper a.spa-area-link[data-current="true"] img {
+  display: none;
+}
+
+.menu-wrapper a.spa-area-link[data-current="true"]::before {
+  content:"";
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.menu-wrapper a.spa-area-link[data-current="true"][data-item="Massagens Corporais"]::before {
+  background: url("/arquivos/icon-massagem-corporal.png");
+}
+
+.menu-wrapper a.spa-area-link[data-current="true"][data-item="Práticas Corporais"]::before {
+  background: url("/arquivos/icon-pratica-corporal.png");
+}
+
+.menu-wrapper a.spa-area-link[data-current="true"][data-item="Terapias Integrativas"]::before {
+  background: url("/arquivos/icon-terapia-integrativa.png");
+}
+
+.menu-wrapper a.spa-area-link[data-current="true"][data-item="Terapias de Bem-Estar"]::before {
+  background: url("/arquivos/icon-terapia-bem-estar.png");
+}
+
+.menu-wrapper-flutuante a.spa-area-link[data-current="true"] span {
+  color: #DCA15A;
+}
+
+.kits:hover {
+  opacity: .8
 }
