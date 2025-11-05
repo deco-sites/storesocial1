@@ -1,1 +1,10 @@
-{"account":"phytoterapica","platform":"vtex","publicUrl":"secure.phytoterapica.com.br","salesChannel":"1","__resolveType":"decohub/apps/vtex.ts","defaultSegment":{"channelPrivacy":"public"}}
+{
+  "account": "socialsahomolog",
+  "platform": "vtex",
+  "salesChannel": "1",
+  "__resolveType": "decohub/apps/vtex.ts",
+  "defaultSegment": {
+    "channelPrivacy": "public"
+  },
+  "publicUrl": "socialsahomolog.myvtex.com"
+}
